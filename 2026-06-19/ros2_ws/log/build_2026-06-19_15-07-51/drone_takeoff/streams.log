@@ -1,0 +1,25 @@
+[3.749s] Invoking command in '/home/indowings/ros2_ws/src/drone_takeoff': PYTHONPATH=/home/indowings/ros2_ws/build/drone_takeoff/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/indowings/ros2_ws/install/drone_takeoff/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/drone_takeoff build --build-base /home/indowings/ros2_ws/build/drone_takeoff/build install --record /home/indowings/ros2_ws/build/drone_takeoff/install.log --single-version-externally-managed install_data
+[5.383s] running egg_info
+[5.496s] writing ../../build/drone_takeoff/drone_takeoff.egg-info/PKG-INFO
+[5.499s] writing dependency_links to ../../build/drone_takeoff/drone_takeoff.egg-info/dependency_links.txt
+[5.501s] writing entry points to ../../build/drone_takeoff/drone_takeoff.egg-info/entry_points.txt
+[5.503s] writing requirements to ../../build/drone_takeoff/drone_takeoff.egg-info/requires.txt
+[5.503s] writing top-level names to ../../build/drone_takeoff/drone_takeoff.egg-info/top_level.txt
+[5.752s] reading manifest file '../../build/drone_takeoff/drone_takeoff.egg-info/SOURCES.txt'
+[5.760s] writing manifest file '../../build/drone_takeoff/drone_takeoff.egg-info/SOURCES.txt'
+[5.761s] running build
+[5.763s] running build_py
+[5.764s] copying drone_takeoff/takeoff_node.py -> /home/indowings/ros2_ws/build/drone_takeoff/build/lib/drone_takeoff
+[5.765s] copying drone_takeoff/__init__.py -> /home/indowings/ros2_ws/build/drone_takeoff/build/lib/drone_takeoff
+[5.767s] running install
+[5.794s] running install_lib
+[5.917s] running install_data
+[5.918s] copying resource/drone_takeoff -> /home/indowings/ros2_ws/install/drone_takeoff/share/ament_index/resource_index/packages
+[5.918s] copying package.xml -> /home/indowings/ros2_ws/install/drone_takeoff/share/drone_takeoff
+[5.919s] running install_egg_info
+[6.039s] removing '/home/indowings/ros2_ws/install/drone_takeoff/lib/python3.10/site-packages/drone_takeoff-0.0.0-py3.10.egg-info' (and everything under it)
+[6.042s] Copying ../../build/drone_takeoff/drone_takeoff.egg-info to /home/indowings/ros2_ws/install/drone_takeoff/lib/python3.10/site-packages/drone_takeoff-0.0.0-py3.10.egg-info
+[6.048s] running install_scripts
+[6.287s] Installing takeoff_node script to /home/indowings/ros2_ws/install/drone_takeoff/lib/drone_takeoff
+[6.288s] writing list of installed files to '/home/indowings/ros2_ws/build/drone_takeoff/install.log'
+[6.436s] Invoked command in '/home/indowings/ros2_ws/src/drone_takeoff' returned '0': PYTHONPATH=/home/indowings/ros2_ws/build/drone_takeoff/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/indowings/ros2_ws/install/drone_takeoff/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/drone_takeoff build --build-base /home/indowings/ros2_ws/build/drone_takeoff/build install --record /home/indowings/ros2_ws/build/drone_takeoff/install.log --single-version-externally-managed install_data

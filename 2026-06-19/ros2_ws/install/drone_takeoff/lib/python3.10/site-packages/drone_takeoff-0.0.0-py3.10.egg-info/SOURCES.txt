@@ -1,0 +1,16 @@
+package.xml
+setup.cfg
+setup.py
+../../build/drone_takeoff/drone_takeoff.egg-info/PKG-INFO
+../../build/drone_takeoff/drone_takeoff.egg-info/SOURCES.txt
+../../build/drone_takeoff/drone_takeoff.egg-info/dependency_links.txt
+../../build/drone_takeoff/drone_takeoff.egg-info/entry_points.txt
+../../build/drone_takeoff/drone_takeoff.egg-info/requires.txt
+../../build/drone_takeoff/drone_takeoff.egg-info/top_level.txt
+../../build/drone_takeoff/drone_takeoff.egg-info/zip-safe
+drone_takeoff/__init__.py
+drone_takeoff/takeoff_node.py
+resource/drone_takeoff
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py

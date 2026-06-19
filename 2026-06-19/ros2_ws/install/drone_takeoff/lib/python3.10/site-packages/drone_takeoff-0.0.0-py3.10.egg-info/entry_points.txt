@@ -1,0 +1,2 @@
+[console_scripts]
+takeoff_node = drone_takeoff.takeoff_node:main
