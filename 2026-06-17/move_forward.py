@@ -141,7 +141,7 @@ while True:
     time.sleep(0.5)
 print("Moving forward...")
 
-forward_speed = 2
+forward_speed = 18
 duration = 50
 
 start_time = time.time()
@@ -182,7 +182,7 @@ def circle(radius=18, speed=3):
     print("Circle complete")
 print("Starting circle mission...")
 
-circle(radius=18, speed=3)
+circle(radius=18, speed=18)
 
 print("Mission complete")
 land()

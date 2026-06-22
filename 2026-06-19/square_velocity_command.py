@@ -27,8 +27,8 @@ async def run():
         print(f"Offboard start failed: {e}")
         return
 
-    speed = 2.0
-    side_time = 10 #10*2=20 meters
+    speed = 200.0
+    side_time =100 #10*2=20 meters
 
     print("Forward")
     await drone.offboard.set_velocity_ned(
