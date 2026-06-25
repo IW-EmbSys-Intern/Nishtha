@@ -1,0 +1,1 @@
+/home/indowings/scripts/2026-06-25/ros2_ws/build/px4_msgs/rosidl_typesupport_introspection_c/px4_msgs/msg/detail/device_information__rosidl_typesupport_introspection_c.h

@@ -1,0 +1,30 @@
+running develop
+Removing /home/indowings/scripts/2026-06-25/ros2_ws/install/px4_mission/lib/python3.10/site-packages/px4-mission.egg-link (link to .)
+running egg_info
+writing ../../build/px4_mission/px4_mission.egg-info/PKG-INFO
+writing dependency_links to ../../build/px4_mission/px4_mission.egg-info/dependency_links.txt
+writing entry points to ../../build/px4_mission/px4_mission.egg-info/entry_points.txt
+writing requirements to ../../build/px4_mission/px4_mission.egg-info/requires.txt
+writing top-level names to ../../build/px4_mission/px4_mission.egg-info/top_level.txt
+reading manifest file '../../build/px4_mission/px4_mission.egg-info/SOURCES.txt'
+writing manifest file '../../build/px4_mission/px4_mission.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/indowings/scripts/2026-06-25/ros2_ws/build/px4_mission/build/lib/px4_mission
+copying px4_mission/mission.py -> /home/indowings/scripts/2026-06-25/ros2_ws/build/px4_mission/build/lib/px4_mission
+copying px4_mission/__init__.py -> /home/indowings/scripts/2026-06-25/ros2_ws/build/px4_mission/build/lib/px4_mission
+running install
+running install_lib
+creating /home/indowings/scripts/2026-06-25/ros2_ws/install/px4_mission/lib/python3.10/site-packages/px4_mission
+copying /home/indowings/scripts/2026-06-25/ros2_ws/build/px4_mission/build/lib/px4_mission/mission.py -> /home/indowings/scripts/2026-06-25/ros2_ws/install/px4_mission/lib/python3.10/site-packages/px4_mission
+copying /home/indowings/scripts/2026-06-25/ros2_ws/build/px4_mission/build/lib/px4_mission/__init__.py -> /home/indowings/scripts/2026-06-25/ros2_ws/install/px4_mission/lib/python3.10/site-packages/px4_mission
+byte-compiling /home/indowings/scripts/2026-06-25/ros2_ws/install/px4_mission/lib/python3.10/site-packages/px4_mission/mission.py to mission.cpython-310.pyc
+byte-compiling /home/indowings/scripts/2026-06-25/ros2_ws/install/px4_mission/lib/python3.10/site-packages/px4_mission/__init__.py to __init__.cpython-310.pyc
+running install_data
+copying resource/px4_mission -> /home/indowings/scripts/2026-06-25/ros2_ws/install/px4_mission/share/ament_index/resource_index/packages
+copying package.xml -> /home/indowings/scripts/2026-06-25/ros2_ws/install/px4_mission/share/px4_mission
+running install_egg_info
+Copying ../../build/px4_mission/px4_mission.egg-info to /home/indowings/scripts/2026-06-25/ros2_ws/install/px4_mission/lib/python3.10/site-packages/px4_mission-0.0.0-py3.10.egg-info
+running install_scripts
+Installing mission script to /home/indowings/scripts/2026-06-25/ros2_ws/install/px4_mission/lib/px4_mission
+writing list of installed files to '/home/indowings/scripts/2026-06-25/ros2_ws/build/px4_mission/install.log'

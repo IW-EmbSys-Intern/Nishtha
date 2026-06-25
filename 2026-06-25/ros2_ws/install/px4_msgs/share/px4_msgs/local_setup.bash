@@ -1,0 +1,1 @@
+/home/indowings/scripts/2026-06-25/ros2_ws/build/px4_msgs/ament_cmake_environment_hooks/local_setup.bash

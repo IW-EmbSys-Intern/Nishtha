@@ -1,0 +1,17 @@
+[7.214s] Invoking command in '/home/indowings/scripts/2026-06-25/ros2_ws/build/px4_mission': PYTHONPATH=/home/indowings/scripts/2026-06-25/ros2_ws/build/px4_mission/prefix_override:/home/indowings/.local/lib/python3.10/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/indowings/scripts/2026-06-25/ros2_ws/install/px4_mission/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/indowings/scripts/2026-06-25/ros2_ws/build/px4_mission/build --no-deps symlink_data
+[9.432s] running develop
+[10.988s] running egg_info
+[11.117s] writing px4_mission.egg-info/PKG-INFO
+[11.121s] writing dependency_links to px4_mission.egg-info/dependency_links.txt
+[11.123s] writing entry points to px4_mission.egg-info/entry_points.txt
+[11.126s] writing requirements to px4_mission.egg-info/requires.txt
+[11.126s] writing top-level names to px4_mission.egg-info/top_level.txt
+[11.393s] reading manifest file 'px4_mission.egg-info/SOURCES.txt'
+[11.403s] writing manifest file 'px4_mission.egg-info/SOURCES.txt'
+[11.533s] running build_ext
+[11.534s] Creating /home/indowings/scripts/2026-06-25/ros2_ws/install/px4_mission/lib/python3.10/site-packages/px4-mission.egg-link (link to .)
+[11.539s] Installing mission script to /home/indowings/scripts/2026-06-25/ros2_ws/install/px4_mission/lib/px4_mission
+[11.540s] 
+[11.541s] Installed /home/indowings/scripts/2026-06-25/ros2_ws/build/px4_mission
+[11.541s] running symlink_data
+[11.731s] Invoked command in '/home/indowings/scripts/2026-06-25/ros2_ws/build/px4_mission' returned '0': PYTHONPATH=/home/indowings/scripts/2026-06-25/ros2_ws/build/px4_mission/prefix_override:/home/indowings/.local/lib/python3.10/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/indowings/scripts/2026-06-25/ros2_ws/install/px4_mission/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/indowings/scripts/2026-06-25/ros2_ws/build/px4_mission/build --no-deps symlink_data

@@ -1,0 +1,168 @@
+[0.000000] (-) TimerEvent: {}
+[0.001035] (-) JobUnselected: {'identifier': 'px4_msgs'}
+[0.001965] (-) JobUnselected: {'identifier': 'px4_ros_com'}
+[0.002409] (px4_mission) JobQueued: {'identifier': 'px4_mission', 'dependencies': OrderedDict()}
+[0.005328] (px4_mission) JobStarted: {'identifier': 'px4_mission'}
+[0.098348] (-) TimerEvent: {}
+[0.199177] (-) TimerEvent: {}
+[0.299940] (-) TimerEvent: {}
+[0.400904] (-) TimerEvent: {}
+[0.501743] (-) TimerEvent: {}
+[0.602842] (-) TimerEvent: {}
+[0.703702] (-) TimerEvent: {}
+[0.805067] (-) TimerEvent: {}
+[0.906364] (-) TimerEvent: {}
+[1.007490] (-) TimerEvent: {}
+[1.108507] (-) TimerEvent: {}
+[1.209283] (-) TimerEvent: {}
+[1.310407] (-) TimerEvent: {}
+[1.411793] (-) TimerEvent: {}
+[1.513194] (-) TimerEvent: {}
+[1.613859] (-) TimerEvent: {}
+[1.715103] (-) TimerEvent: {}
+[1.816254] (-) TimerEvent: {}
+[1.918237] (-) TimerEvent: {}
+[2.018910] (-) TimerEvent: {}
+[2.119785] (-) TimerEvent: {}
+[2.220502] (-) TimerEvent: {}
+[2.321212] (-) TimerEvent: {}
+[2.421957] (-) TimerEvent: {}
+[2.523932] (-) TimerEvent: {}
+[2.625193] (-) TimerEvent: {}
+[2.726009] (-) TimerEvent: {}
+[2.827506] (-) TimerEvent: {}
+[2.928565] (-) TimerEvent: {}
+[3.029308] (-) TimerEvent: {}
+[3.129929] (-) TimerEvent: {}
+[3.232251] (-) TimerEvent: {}
+[3.333545] (-) TimerEvent: {}
+[3.434609] (-) TimerEvent: {}
+[3.535143] (-) TimerEvent: {}
+[3.635564] (-) TimerEvent: {}
+[3.736254] (-) TimerEvent: {}
+[3.837099] (-) TimerEvent: {}
+[3.938323] (-) TimerEvent: {}
+[4.039326] (-) TimerEvent: {}
+[4.140580] (-) TimerEvent: {}
+[4.241788] (-) TimerEvent: {}
+[4.343626] (-) TimerEvent: {}
+[4.444704] (-) TimerEvent: {}
+[4.548849] (-) TimerEvent: {}
+[4.649573] (-) TimerEvent: {}
+[4.750359] (-) TimerEvent: {}
+[4.851316] (-) TimerEvent: {}
+[4.952094] (-) TimerEvent: {}
+[5.031764] (px4_mission) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'develop', '--uninstall', '--editable', '--build-directory', '/home/indowings/scripts/2026-06-25/ros2_ws/build/px4_mission/build'], 'cwd': '/home/indowings/scripts/2026-06-25/ros2_ws/build/px4_mission', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_IN:en', 'USER': 'indowings', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/indowings/scripts/2026-06-25/ros2_ws/install/px4_ros_com/lib:/home/indowings/scripts/2026-06-25/ros2_ws/install/px4_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/indowings', 'OLDPWD': '/home/indowings/scripts/2026-06-25/ros2_ws', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '1879', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'COLCON_PREFIX_PATH': '/home/indowings/scripts/2026-06-25/ros2_ws/install', 'ROS_DISTRO': 'humble', 'GTK_IM_MODULE': 'ibus', 'LOGNAME': 'indowings', '_': '/home/indowings/.local/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'indowings', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/opt/ros/humble/bin:/usr/lib/ccache:/home/indowings/ardupilot/Tools/autotest:/opt/gcc-arm-none-eabi-10-2020-q4-major/bin:/home/indowings/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/opt/xtensa-esp-elf/bin/', 'SESSION_MANAGER': 'local/indowings-Latitude-7290:@/tmp/.ICE-unix/1693,unix/indowings-Latitude-7290:/tmp/.ICE-unix/1693', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/7de8aa6c_5c80_46d4_bf61_afc7fcc33fb6', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':1', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'RMW_IMPLEMENTATION': 'rmw_cyclonedds_cpp', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.103', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/indowings/scripts/2026-06-25/ros2_ws/install/px4_ros_com:/home/indowings/scripts/2026-06-25/ros2_ws/install/px4_msgs:/home/indowings/scripts/2026-06-25/ros2_ws/install/px4_mission:/opt/ros/humble', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/indowings/scripts/2026-06-25/ros2_ws/build/px4_mission', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/home/indowings/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/indowings/scripts/2026-06-25/ros2_ws/build/px4_mission/prefix_override:/home/indowings/.local/lib/python3.10/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/indowings/scripts/2026-06-25/ros2_ws/install/px4_mission/lib/python3.10/site-packages:/home/indowings/scripts/2026-06-25/ros2_ws/build/px4_mission:/home/indowings/scripts/2026-06-25/ros2_ws/install/px4_ros_com/local/lib/python3.10/dist-packages:/home/indowings/scripts/2026-06-25/ros2_ws/install/px4_msgs/local/lib/python3.10/dist-packages:/home/indowings/scripts/2026-06-25/ros2_ws/install/px4_mission/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/indowings/scripts/2026-06-25/ros2_ws/install/px4_ros_com:/home/indowings/scripts/2026-06-25/ros2_ws/install/px4_msgs'}, 'shell': False}
+[5.052277] (-) TimerEvent: {}
+[5.153176] (-) TimerEvent: {}
+[5.254368] (-) TimerEvent: {}
+[5.355454] (-) TimerEvent: {}
+[5.456890] (-) TimerEvent: {}
+[5.558075] (-) TimerEvent: {}
+[5.658838] (-) TimerEvent: {}
+[5.759730] (-) TimerEvent: {}
+[5.861307] (-) TimerEvent: {}
+[5.962793] (-) TimerEvent: {}
+[6.064220] (-) TimerEvent: {}
+[6.164845] (-) TimerEvent: {}
+[6.265608] (-) TimerEvent: {}
+[6.366164] (-) TimerEvent: {}
+[6.467851] (-) TimerEvent: {}
+[6.569171] (-) TimerEvent: {}
+[6.670241] (-) TimerEvent: {}
+[6.770835] (-) TimerEvent: {}
+[6.871473] (-) TimerEvent: {}
+[6.971937] (-) TimerEvent: {}
+[7.072772] (-) TimerEvent: {}
+[7.174214] (-) TimerEvent: {}
+[7.275798] (-) TimerEvent: {}
+[7.376938] (-) TimerEvent: {}
+[7.428176] (px4_mission) StdoutLine: {'line': b'running develop\n'}
+[7.477600] (-) TimerEvent: {}
+[7.578665] (-) TimerEvent: {}
+[7.679033] (-) TimerEvent: {}
+[7.779471] (-) TimerEvent: {}
+[7.879931] (-) TimerEvent: {}
+[7.980520] (-) TimerEvent: {}
+[8.081167] (-) TimerEvent: {}
+[8.182156] (-) TimerEvent: {}
+[8.283670] (-) TimerEvent: {}
+[8.384699] (-) TimerEvent: {}
+[8.485289] (-) TimerEvent: {}
+[8.586059] (-) TimerEvent: {}
+[8.687061] (-) TimerEvent: {}
+[8.744028] (px4_mission) StdoutLine: {'line': b'Removing /home/indowings/scripts/2026-06-25/ros2_ws/install/px4_mission/lib/python3.10/site-packages/px4-mission.egg-link (link to .)\n'}
+[8.787242] (-) TimerEvent: {}
+[8.888253] (-) TimerEvent: {}
+[8.965686] (px4_mission) CommandEnded: {'returncode': 0}
+[8.971801] (px4_mission) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/px4_mission', 'build', '--build-base', '/home/indowings/scripts/2026-06-25/ros2_ws/build/px4_mission/build', 'install', '--record', '/home/indowings/scripts/2026-06-25/ros2_ws/build/px4_mission/install.log', '--install-scripts', '$base/lib/px4_mission', '--single-version-externally-managed', 'install_data', '--force'], 'cwd': '/home/indowings/scripts/2026-06-25/ros2_ws/src/px4_mission', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_IN:en', 'USER': 'indowings', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/indowings/scripts/2026-06-25/ros2_ws/install/px4_ros_com/lib:/home/indowings/scripts/2026-06-25/ros2_ws/install/px4_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/indowings', 'OLDPWD': '/home/indowings/scripts/2026-06-25/ros2_ws', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '1879', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'COLCON_PREFIX_PATH': '/home/indowings/scripts/2026-06-25/ros2_ws/install', 'ROS_DISTRO': 'humble', 'GTK_IM_MODULE': 'ibus', 'LOGNAME': 'indowings', '_': '/home/indowings/.local/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'indowings', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/opt/ros/humble/bin:/usr/lib/ccache:/home/indowings/ardupilot/Tools/autotest:/opt/gcc-arm-none-eabi-10-2020-q4-major/bin:/home/indowings/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/opt/xtensa-esp-elf/bin/', 'SESSION_MANAGER': 'local/indowings-Latitude-7290:@/tmp/.ICE-unix/1693,unix/indowings-Latitude-7290:/tmp/.ICE-unix/1693', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/7de8aa6c_5c80_46d4_bf61_afc7fcc33fb6', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':1', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'RMW_IMPLEMENTATION': 'rmw_cyclonedds_cpp', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.103', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/indowings/scripts/2026-06-25/ros2_ws/install/px4_ros_com:/home/indowings/scripts/2026-06-25/ros2_ws/install/px4_msgs:/home/indowings/scripts/2026-06-25/ros2_ws/install/px4_mission:/opt/ros/humble', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/indowings/scripts/2026-06-25/ros2_ws/build/px4_mission', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/home/indowings/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/indowings/scripts/2026-06-25/ros2_ws/build/px4_mission/prefix_override:/home/indowings/.local/lib/python3.10/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/indowings/scripts/2026-06-25/ros2_ws/install/px4_mission/lib/python3.10/site-packages:/home/indowings/scripts/2026-06-25/ros2_ws/build/px4_mission:/home/indowings/scripts/2026-06-25/ros2_ws/install/px4_ros_com/local/lib/python3.10/dist-packages:/home/indowings/scripts/2026-06-25/ros2_ws/install/px4_msgs/local/lib/python3.10/dist-packages:/home/indowings/scripts/2026-06-25/ros2_ws/install/px4_mission/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/indowings/scripts/2026-06-25/ros2_ws/install/px4_ros_com:/home/indowings/scripts/2026-06-25/ros2_ws/install/px4_msgs'}, 'shell': False}
+[8.988606] (-) TimerEvent: {}
+[9.089691] (-) TimerEvent: {}
+[9.191177] (-) TimerEvent: {}
+[9.292686] (-) TimerEvent: {}
+[9.394361] (-) TimerEvent: {}
+[9.496603] (-) TimerEvent: {}
+[9.601037] (-) TimerEvent: {}
+[9.702078] (-) TimerEvent: {}
+[9.802891] (-) TimerEvent: {}
+[9.903540] (-) TimerEvent: {}
+[10.004033] (-) TimerEvent: {}
+[10.104940] (-) TimerEvent: {}
+[10.206441] (-) TimerEvent: {}
+[10.310296] (-) TimerEvent: {}
+[10.411301] (-) TimerEvent: {}
+[10.512151] (-) TimerEvent: {}
+[10.613715] (-) TimerEvent: {}
+[10.714426] (-) TimerEvent: {}
+[10.815219] (-) TimerEvent: {}
+[10.896649] (px4_mission) StdoutLine: {'line': b'running egg_info\n'}
+[10.915651] (-) TimerEvent: {}
+[11.016923] (-) TimerEvent: {}
+[11.029339] (px4_mission) StdoutLine: {'line': b'writing ../../build/px4_mission/px4_mission.egg-info/PKG-INFO\n'}
+[11.033313] (px4_mission) StdoutLine: {'line': b'writing dependency_links to ../../build/px4_mission/px4_mission.egg-info/dependency_links.txt\n'}
+[11.035027] (px4_mission) StdoutLine: {'line': b'writing entry points to ../../build/px4_mission/px4_mission.egg-info/entry_points.txt\n'}
+[11.036104] (px4_mission) StdoutLine: {'line': b'writing requirements to ../../build/px4_mission/px4_mission.egg-info/requires.txt\n'}
+[11.036572] (px4_mission) StdoutLine: {'line': b'writing top-level names to ../../build/px4_mission/px4_mission.egg-info/top_level.txt\n'}
+[11.117161] (-) TimerEvent: {}
+[11.219013] (-) TimerEvent: {}
+[11.319792] (-) TimerEvent: {}
+[11.345465] (px4_mission) StdoutLine: {'line': b"reading manifest file '../../build/px4_mission/px4_mission.egg-info/SOURCES.txt'\n"}
+[11.356543] (px4_mission) StdoutLine: {'line': b"writing manifest file '../../build/px4_mission/px4_mission.egg-info/SOURCES.txt'\n"}
+[11.357979] (px4_mission) StdoutLine: {'line': b'running build\n'}
+[11.359262] (px4_mission) StdoutLine: {'line': b'running build_py\n'}
+[11.361585] (px4_mission) StdoutLine: {'line': b'copying px4_mission/mission.py -> /home/indowings/scripts/2026-06-25/ros2_ws/build/px4_mission/build/lib/px4_mission\n'}
+[11.363251] (px4_mission) StdoutLine: {'line': b'copying px4_mission/__init__.py -> /home/indowings/scripts/2026-06-25/ros2_ws/build/px4_mission/build/lib/px4_mission\n'}
+[11.364287] (px4_mission) StdoutLine: {'line': b'running install\n'}
+[11.395073] (px4_mission) StdoutLine: {'line': b'running install_lib\n'}
+[11.419916] (-) TimerEvent: {}
+[11.520591] (-) TimerEvent: {}
+[11.537193] (px4_mission) StdoutLine: {'line': b'creating /home/indowings/scripts/2026-06-25/ros2_ws/install/px4_mission/lib/python3.10/site-packages/px4_mission\n'}
+[11.538450] (px4_mission) StdoutLine: {'line': b'copying /home/indowings/scripts/2026-06-25/ros2_ws/build/px4_mission/build/lib/px4_mission/mission.py -> /home/indowings/scripts/2026-06-25/ros2_ws/install/px4_mission/lib/python3.10/site-packages/px4_mission\n'}
+[11.539841] (px4_mission) StdoutLine: {'line': b'copying /home/indowings/scripts/2026-06-25/ros2_ws/build/px4_mission/build/lib/px4_mission/__init__.py -> /home/indowings/scripts/2026-06-25/ros2_ws/install/px4_mission/lib/python3.10/site-packages/px4_mission\n'}
+[11.543220] (px4_mission) StdoutLine: {'line': b'byte-compiling /home/indowings/scripts/2026-06-25/ros2_ws/install/px4_mission/lib/python3.10/site-packages/px4_mission/mission.py to mission.cpython-310.pyc\n'}
+[11.547106] (px4_mission) StdoutLine: {'line': b'byte-compiling /home/indowings/scripts/2026-06-25/ros2_ws/install/px4_mission/lib/python3.10/site-packages/px4_mission/__init__.py to __init__.cpython-310.pyc\n'}
+[11.547586] (px4_mission) StdoutLine: {'line': b'running install_data\n'}
+[11.548708] (px4_mission) StdoutLine: {'line': b'copying resource/px4_mission -> /home/indowings/scripts/2026-06-25/ros2_ws/install/px4_mission/share/ament_index/resource_index/packages\n'}
+[11.549582] (px4_mission) StdoutLine: {'line': b'copying package.xml -> /home/indowings/scripts/2026-06-25/ros2_ws/install/px4_mission/share/px4_mission\n'}
+[11.549982] (px4_mission) StdoutLine: {'line': b'running install_egg_info\n'}
+[11.620888] (-) TimerEvent: {}
+[11.682049] (px4_mission) StdoutLine: {'line': b'Copying ../../build/px4_mission/px4_mission.egg-info to /home/indowings/scripts/2026-06-25/ros2_ws/install/px4_mission/lib/python3.10/site-packages/px4_mission-0.0.0-py3.10.egg-info\n'}
+[11.688222] (px4_mission) StdoutLine: {'line': b'running install_scripts\n'}
+[11.721040] (-) TimerEvent: {}
+[11.822529] (-) TimerEvent: {}
+[11.923272] (-) TimerEvent: {}
+[12.024499] (-) TimerEvent: {}
+[12.125025] (-) TimerEvent: {}
+[12.225999] (-) TimerEvent: {}
+[12.326472] (-) TimerEvent: {}
+[12.427944] (-) TimerEvent: {}
+[12.529070] (-) TimerEvent: {}
+[12.629592] (-) TimerEvent: {}
+[12.712210] (px4_mission) StdoutLine: {'line': b'Installing mission script to /home/indowings/scripts/2026-06-25/ros2_ws/install/px4_mission/lib/px4_mission\n'}
+[12.715722] (px4_mission) StdoutLine: {'line': b"writing list of installed files to '/home/indowings/scripts/2026-06-25/ros2_ws/build/px4_mission/install.log'\n"}
+[12.729996] (-) TimerEvent: {}
+[12.830904] (-) TimerEvent: {}
+[12.914769] (px4_mission) CommandEnded: {'returncode': 0}
+[12.931185] (-) TimerEvent: {}
+[12.988329] (px4_mission) JobEnded: {'identifier': 'px4_mission', 'rc': 0}
+[12.992428] (-) EventReactorShutdown: {}

@@ -1,0 +1,31 @@
+running egg_info
+creating ../../../build/drone_takeoff/drone_takeoff.egg-info
+writing ../../../build/drone_takeoff/drone_takeoff.egg-info/PKG-INFO
+writing dependency_links to ../../../build/drone_takeoff/drone_takeoff.egg-info/dependency_links.txt
+writing entry points to ../../../build/drone_takeoff/drone_takeoff.egg-info/entry_points.txt
+writing requirements to ../../../build/drone_takeoff/drone_takeoff.egg-info/requires.txt
+writing top-level names to ../../../build/drone_takeoff/drone_takeoff.egg-info/top_level.txt
+writing manifest file '../../../build/drone_takeoff/drone_takeoff.egg-info/SOURCES.txt'
+reading manifest file '../../../build/drone_takeoff/drone_takeoff.egg-info/SOURCES.txt'
+writing manifest file '../../../build/drone_takeoff/drone_takeoff.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/indowings/scripts/2026-06-19/build/drone_takeoff/build/lib/drone_takeoff
+copying drone_takeoff/takeoff_node.py -> /home/indowings/scripts/2026-06-19/build/drone_takeoff/build/lib/drone_takeoff
+copying drone_takeoff/__init__.py -> /home/indowings/scripts/2026-06-19/build/drone_takeoff/build/lib/drone_takeoff
+running install
+running install_lib
+creating /home/indowings/scripts/2026-06-19/install/drone_takeoff/lib/python3.10/site-packages/drone_takeoff
+copying /home/indowings/scripts/2026-06-19/build/drone_takeoff/build/lib/drone_takeoff/takeoff_node.py -> /home/indowings/scripts/2026-06-19/install/drone_takeoff/lib/python3.10/site-packages/drone_takeoff
+copying /home/indowings/scripts/2026-06-19/build/drone_takeoff/build/lib/drone_takeoff/__init__.py -> /home/indowings/scripts/2026-06-19/install/drone_takeoff/lib/python3.10/site-packages/drone_takeoff
+byte-compiling /home/indowings/scripts/2026-06-19/install/drone_takeoff/lib/python3.10/site-packages/drone_takeoff/takeoff_node.py to takeoff_node.cpython-310.pyc
+byte-compiling /home/indowings/scripts/2026-06-19/install/drone_takeoff/lib/python3.10/site-packages/drone_takeoff/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/indowings/scripts/2026-06-19/install/drone_takeoff/share/ament_index/resource_index/packages
+copying resource/drone_takeoff -> /home/indowings/scripts/2026-06-19/install/drone_takeoff/share/ament_index/resource_index/packages
+copying package.xml -> /home/indowings/scripts/2026-06-19/install/drone_takeoff/share/drone_takeoff
+running install_egg_info
+Copying ../../../build/drone_takeoff/drone_takeoff.egg-info to /home/indowings/scripts/2026-06-19/install/drone_takeoff/lib/python3.10/site-packages/drone_takeoff-0.0.0-py3.10.egg-info
+running install_scripts
+Installing takeoff_node script to /home/indowings/scripts/2026-06-19/install/drone_takeoff/lib/drone_takeoff
+writing list of installed files to '/home/indowings/scripts/2026-06-19/build/drone_takeoff/install.log'

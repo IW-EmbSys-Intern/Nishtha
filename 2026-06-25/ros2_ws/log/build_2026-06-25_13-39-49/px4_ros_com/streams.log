@@ -1,0 +1,66 @@
+[0.054s] Invoking command in '/home/indowings/scripts/2026-06-25/ros2_ws/build/px4_ros_com': CMAKE_PREFIX_PATH=/home/indowings/scripts/2026-06-25/ros2_ws/install/px4_msgs:/home/indowings/scripts/2026-06-25/ros2_ws/install/px4_ros_com:/home/indowings/scripts/2026-06-25/ros2_ws/install/px4_mission:/opt/ros/humble LD_LIBRARY_PATH=/home/indowings/scripts/2026-06-25/ros2_ws/install/px4_msgs/lib:/home/indowings/scripts/2026-06-25/ros2_ws/install/px4_ros_com/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/indowings/scripts/2026-06-25/ros2_ws/build/px4_ros_com -- -j8 -l8
+[0.295s] [ 16%] Built target frame_transforms
+[0.434s] [ 16%] Built target ament_cmake_python_symlink_px4_ros_com
+[0.563s] [ 33%] Built target offboard_control_srv
+[2.126s] running egg_info
+[2.240s] writing px4_ros_com.egg-info/PKG-INFO
+[2.243s] writing dependency_links to px4_ros_com.egg-info/dependency_links.txt
+[2.247s] writing top-level names to px4_ros_com.egg-info/top_level.txt
+[2.664s] reading manifest file 'px4_ros_com.egg-info/SOURCES.txt'
+[2.673s] writing manifest file 'px4_ros_com.egg-info/SOURCES.txt'
+[2.865s] [ 33%] Built target ament_cmake_python_build_px4_ros_com_egg
+[2.995s] [ 50%] Built target offboard_control
+[3.108s] [ 66%] Built target debug_vect_advertiser
+[3.224s] [ 83%] Built target vehicle_gps_position_listener
+[3.348s] [100%] Built target sensor_combined_listener
+[3.407s] Invoked command in '/home/indowings/scripts/2026-06-25/ros2_ws/build/px4_ros_com' returned '0': CMAKE_PREFIX_PATH=/home/indowings/scripts/2026-06-25/ros2_ws/install/px4_msgs:/home/indowings/scripts/2026-06-25/ros2_ws/install/px4_ros_com:/home/indowings/scripts/2026-06-25/ros2_ws/install/px4_mission:/opt/ros/humble LD_LIBRARY_PATH=/home/indowings/scripts/2026-06-25/ros2_ws/install/px4_msgs/lib:/home/indowings/scripts/2026-06-25/ros2_ws/install/px4_ros_com/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/indowings/scripts/2026-06-25/ros2_ws/build/px4_ros_com -- -j8 -l8
+[3.415s] Invoking command in '/home/indowings/scripts/2026-06-25/ros2_ws/build/px4_ros_com': CMAKE_PREFIX_PATH=/home/indowings/scripts/2026-06-25/ros2_ws/install/px4_msgs:/home/indowings/scripts/2026-06-25/ros2_ws/install/px4_ros_com:/home/indowings/scripts/2026-06-25/ros2_ws/install/px4_mission:/opt/ros/humble LD_LIBRARY_PATH=/home/indowings/scripts/2026-06-25/ros2_ws/install/px4_msgs/lib:/home/indowings/scripts/2026-06-25/ros2_ws/install/px4_ros_com/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/indowings/scripts/2026-06-25/ros2_ws/build/px4_ros_com
+[3.452s] -- Install configuration: ""
+[3.455s] -- Execute custom install script
+[3.456s] -- Up-to-date symlink: /home/indowings/scripts/2026-06-25/ros2_ws/install/px4_ros_com/lib/px4_ros_com/sensor_combined_listener
+[3.457s] -- Up-to-date symlink: /home/indowings/scripts/2026-06-25/ros2_ws/install/px4_ros_com/lib/px4_ros_com/vehicle_gps_position_listener
+[3.458s] -- Up-to-date symlink: /home/indowings/scripts/2026-06-25/ros2_ws/install/px4_ros_com/lib/px4_ros_com/debug_vect_advertiser
+[3.458s] -- Up-to-date symlink: /home/indowings/scripts/2026-06-25/ros2_ws/install/px4_ros_com/lib/px4_ros_com/offboard_control
+[3.460s] -- Up-to-date symlink: /home/indowings/scripts/2026-06-25/ros2_ws/install/px4_ros_com/lib/px4_ros_com/offboard_control_srv
+[3.462s] -- Up-to-date symlink: /home/indowings/scripts/2026-06-25/ros2_ws/install/px4_ros_com/share/px4_ros_com/environment/library_path.sh
+[3.464s] -- Up-to-date symlink: /home/indowings/scripts/2026-06-25/ros2_ws/install/px4_ros_com/share/px4_ros_com/environment/library_path.dsv
+[3.465s] -- Up-to-date symlink: /home/indowings/scripts/2026-06-25/ros2_ws/install/px4_ros_com/include/px4_ros_com/frame_transforms.h
+[3.468s] -- Up-to-date symlink: /home/indowings/scripts/2026-06-25/ros2_ws/install/px4_ros_com/share/px4_ros_com//launch/offboard_control_launch.yaml
+[3.470s] -- Up-to-date symlink: /home/indowings/scripts/2026-06-25/ros2_ws/install/px4_ros_com/share/px4_ros_com//launch/sensor_combined_listener.launch.py
+[3.470s] -- Up-to-date symlink: /home/indowings/scripts/2026-06-25/ros2_ws/install/px4_ros_com/share/px4_ros_com//test/__init__.py
+[3.471s] -- Up-to-date symlink: /home/indowings/scripts/2026-06-25/ros2_ws/install/px4_ros_com/share/px4_ros_com//test/pipeline_io_test.py
+[3.473s] -- Up-to-date symlink: /home/indowings/scripts/2026-06-25/ros2_ws/install/px4_ros_com/share/px4_ros_com//test/test_input.py
+[3.474s] -- Up-to-date symlink: /home/indowings/scripts/2026-06-25/ros2_ws/install/px4_ros_com/share/px4_ros_com//test/test_output.py
+[3.475s] -- Up-to-date symlink: /home/indowings/scripts/2026-06-25/ros2_ws/install/px4_ros_com/share/px4_ros_com/environment/pythonpath.sh
+[3.477s] -- Up-to-date symlink: /home/indowings/scripts/2026-06-25/ros2_ws/install/px4_ros_com/share/px4_ros_com/environment/pythonpath.dsv
+[3.477s] -- Up-to-date symlink: /home/indowings/scripts/2026-06-25/ros2_ws/install/px4_ros_com/local/lib/python3.10/dist-packages/px4_ros_com-0.1.0-py3.10.egg-info/PKG-INFO
+[3.478s] -- Up-to-date symlink: /home/indowings/scripts/2026-06-25/ros2_ws/install/px4_ros_com/local/lib/python3.10/dist-packages/px4_ros_com-0.1.0-py3.10.egg-info/SOURCES.txt
+[3.479s] -- Up-to-date symlink: /home/indowings/scripts/2026-06-25/ros2_ws/install/px4_ros_com/local/lib/python3.10/dist-packages/px4_ros_com-0.1.0-py3.10.egg-info/dependency_links.txt
+[3.479s] -- Up-to-date symlink: /home/indowings/scripts/2026-06-25/ros2_ws/install/px4_ros_com/local/lib/python3.10/dist-packages/px4_ros_com-0.1.0-py3.10.egg-info/top_level.txt
+[3.480s] -- Up-to-date symlink: /home/indowings/scripts/2026-06-25/ros2_ws/install/px4_ros_com/local/lib/python3.10/dist-packages/px4_ros_com/__init__.py
+[3.480s] -- Up-to-date symlink: /home/indowings/scripts/2026-06-25/ros2_ws/install/px4_ros_com/local/lib/python3.10/dist-packages/px4_ros_com/module_to_import.py
+[3.482s] -- Up-to-date symlink: /home/indowings/scripts/2026-06-25/ros2_ws/install/px4_ros_com/lib/px4_ros_com/offboard_control.py
+[3.483s] -- Up-to-date symlink: /home/indowings/scripts/2026-06-25/ros2_ws/install/px4_ros_com/share/ament_index/resource_index/package_run_dependencies/px4_ros_com
+[3.485s] -- Up-to-date symlink: /home/indowings/scripts/2026-06-25/ros2_ws/install/px4_ros_com/share/ament_index/resource_index/parent_prefix_path/px4_ros_com
+[3.487s] -- Up-to-date symlink: /home/indowings/scripts/2026-06-25/ros2_ws/install/px4_ros_com/share/px4_ros_com/environment/ament_prefix_path.sh
+[3.488s] -- Up-to-date symlink: /home/indowings/scripts/2026-06-25/ros2_ws/install/px4_ros_com/share/px4_ros_com/environment/ament_prefix_path.dsv
+[3.490s] -- Up-to-date symlink: /home/indowings/scripts/2026-06-25/ros2_ws/install/px4_ros_com/share/px4_ros_com/environment/path.sh
+[3.490s] -- Up-to-date symlink: /home/indowings/scripts/2026-06-25/ros2_ws/install/px4_ros_com/share/px4_ros_com/environment/path.dsv
+[3.491s] -- Up-to-date symlink: /home/indowings/scripts/2026-06-25/ros2_ws/install/px4_ros_com/share/px4_ros_com/local_setup.bash
+[3.494s] -- Up-to-date symlink: /home/indowings/scripts/2026-06-25/ros2_ws/install/px4_ros_com/share/px4_ros_com/local_setup.sh
+[3.495s] -- Up-to-date symlink: /home/indowings/scripts/2026-06-25/ros2_ws/install/px4_ros_com/share/px4_ros_com/local_setup.zsh
+[3.496s] -- Up-to-date symlink: /home/indowings/scripts/2026-06-25/ros2_ws/install/px4_ros_com/share/px4_ros_com/local_setup.dsv
+[3.496s] -- Symlinking: /home/indowings/scripts/2026-06-25/ros2_ws/install/px4_ros_com/share/px4_ros_com/package.dsv
+[3.542s] -- Up-to-date symlink: /home/indowings/scripts/2026-06-25/ros2_ws/install/px4_ros_com/share/ament_index/resource_index/packages/px4_ros_com
+[3.544s] -- Up-to-date symlink: /home/indowings/scripts/2026-06-25/ros2_ws/install/px4_ros_com/share/px4_ros_com/cmake/ament_cmake_export_dependencies-extras.cmake
+[3.545s] -- Up-to-date symlink: /home/indowings/scripts/2026-06-25/ros2_ws/install/px4_ros_com/share/px4_ros_com/cmake/ament_cmake_export_targets-extras.cmake
+[3.546s] -- Up-to-date symlink: /home/indowings/scripts/2026-06-25/ros2_ws/install/px4_ros_com/share/px4_ros_com/cmake/ament_cmake_export_include_directories-extras.cmake
+[3.547s] -- Up-to-date symlink: /home/indowings/scripts/2026-06-25/ros2_ws/install/px4_ros_com/share/px4_ros_com/cmake/ament_cmake_export_libraries-extras.cmake
+[3.549s] -- Up-to-date symlink: /home/indowings/scripts/2026-06-25/ros2_ws/install/px4_ros_com/share/px4_ros_com/cmake/px4_ros_comConfig.cmake
+[3.550s] -- Up-to-date symlink: /home/indowings/scripts/2026-06-25/ros2_ws/install/px4_ros_com/share/px4_ros_com/cmake/px4_ros_comConfig-version.cmake
+[3.551s] -- Up-to-date symlink: /home/indowings/scripts/2026-06-25/ros2_ws/install/px4_ros_com/share/px4_ros_com/package.xml
+[3.553s] -- Up-to-date: /home/indowings/scripts/2026-06-25/ros2_ws/install/px4_ros_com/lib/libframe_transforms.so
+[3.762s] Listing '/home/indowings/scripts/2026-06-25/ros2_ws/install/px4_ros_com/local/lib/python3.10/dist-packages/px4_ros_com'...
+[3.798s] -- Up-to-date: /home/indowings/scripts/2026-06-25/ros2_ws/install/px4_ros_com/share/px4_ros_com/cmake/export_frame_transformsExport.cmake
+[3.798s] -- Up-to-date: /home/indowings/scripts/2026-06-25/ros2_ws/install/px4_ros_com/share/px4_ros_com/cmake/export_frame_transformsExport-noconfig.cmake
+[3.816s] Invoked command in '/home/indowings/scripts/2026-06-25/ros2_ws/build/px4_ros_com' returned '0': CMAKE_PREFIX_PATH=/home/indowings/scripts/2026-06-25/ros2_ws/install/px4_msgs:/home/indowings/scripts/2026-06-25/ros2_ws/install/px4_ros_com:/home/indowings/scripts/2026-06-25/ros2_ws/install/px4_mission:/opt/ros/humble LD_LIBRARY_PATH=/home/indowings/scripts/2026-06-25/ros2_ws/install/px4_msgs/lib:/home/indowings/scripts/2026-06-25/ros2_ws/install/px4_ros_com/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/indowings/scripts/2026-06-25/ros2_ws/build/px4_ros_com

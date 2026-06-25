@@ -1,0 +1,1 @@
+/home/indowings/scripts/2026-06-25/ros2_ws/build/px4_msgs/rosidl_generator_py/px4_msgs/msg/_parameter_reset_request_s.c

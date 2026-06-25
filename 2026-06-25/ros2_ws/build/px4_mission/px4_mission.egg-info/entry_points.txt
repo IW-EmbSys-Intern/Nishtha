@@ -1,0 +1,3 @@
+[console_scripts]
+circle_test = px4_mission.circle_test:main
+mission = px4_mission.mission:main

@@ -1,0 +1,37 @@
+[5.017s] Invoking command in '/home/indowings/scripts/2026-06-25/ros2_ws/build/px4_mission': PYTHONPATH=/home/indowings/scripts/2026-06-25/ros2_ws/build/px4_mission/prefix_override:/home/indowings/.local/lib/python3.10/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/indowings/scripts/2026-06-25/ros2_ws/install/px4_mission/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/indowings/scripts/2026-06-25/ros2_ws/build/px4_mission/build
+[7.089s] running develop
+[8.532s] Removing /home/indowings/scripts/2026-06-25/ros2_ws/install/px4_mission/lib/python3.10/site-packages/px4-mission.egg-link (link to .)
+[8.730s] Invoked command in '/home/indowings/scripts/2026-06-25/ros2_ws/build/px4_mission' returned '0': PYTHONPATH=/home/indowings/scripts/2026-06-25/ros2_ws/build/px4_mission/prefix_override:/home/indowings/.local/lib/python3.10/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/indowings/scripts/2026-06-25/ros2_ws/install/px4_mission/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/indowings/scripts/2026-06-25/ros2_ws/build/px4_mission/build
+[8.740s] Invoking command in '/home/indowings/scripts/2026-06-25/ros2_ws/src/px4_mission': PYTHONPATH=/home/indowings/scripts/2026-06-25/ros2_ws/build/px4_mission/prefix_override:/home/indowings/.local/lib/python3.10/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/indowings/scripts/2026-06-25/ros2_ws/install/px4_mission/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/px4_mission build --build-base /home/indowings/scripts/2026-06-25/ros2_ws/build/px4_mission/build install --record /home/indowings/scripts/2026-06-25/ros2_ws/build/px4_mission/install.log --install-scripts $base/lib/px4_mission --single-version-externally-managed install_data --force
+[10.353s] running egg_info
+[10.477s] writing ../../build/px4_mission/px4_mission.egg-info/PKG-INFO
+[10.480s] writing dependency_links to ../../build/px4_mission/px4_mission.egg-info/dependency_links.txt
+[10.483s] writing entry points to ../../build/px4_mission/px4_mission.egg-info/entry_points.txt
+[10.483s] writing requirements to ../../build/px4_mission/px4_mission.egg-info/requires.txt
+[10.484s] writing top-level names to ../../build/px4_mission/px4_mission.egg-info/top_level.txt
+[10.730s] reading manifest file '../../build/px4_mission/px4_mission.egg-info/SOURCES.txt'
+[10.741s] writing manifest file '../../build/px4_mission/px4_mission.egg-info/SOURCES.txt'
+[10.742s] running build
+[10.743s] running build_py
+[10.744s] copying px4_mission/circle_test.py -> /home/indowings/scripts/2026-06-25/ros2_ws/build/px4_mission/build/lib/px4_mission
+[10.745s] copying px4_mission/mission.py -> /home/indowings/scripts/2026-06-25/ros2_ws/build/px4_mission/build/lib/px4_mission
+[10.746s] copying px4_mission/__init__.py -> /home/indowings/scripts/2026-06-25/ros2_ws/build/px4_mission/build/lib/px4_mission
+[10.747s] running install
+[10.774s] running install_lib
+[10.891s] creating /home/indowings/scripts/2026-06-25/ros2_ws/install/px4_mission/lib/python3.10/site-packages/px4_mission
+[10.893s] copying /home/indowings/scripts/2026-06-25/ros2_ws/build/px4_mission/build/lib/px4_mission/circle_test.py -> /home/indowings/scripts/2026-06-25/ros2_ws/install/px4_mission/lib/python3.10/site-packages/px4_mission
+[10.894s] copying /home/indowings/scripts/2026-06-25/ros2_ws/build/px4_mission/build/lib/px4_mission/mission.py -> /home/indowings/scripts/2026-06-25/ros2_ws/install/px4_mission/lib/python3.10/site-packages/px4_mission
+[10.895s] copying /home/indowings/scripts/2026-06-25/ros2_ws/build/px4_mission/build/lib/px4_mission/__init__.py -> /home/indowings/scripts/2026-06-25/ros2_ws/install/px4_mission/lib/python3.10/site-packages/px4_mission
+[10.896s] byte-compiling /home/indowings/scripts/2026-06-25/ros2_ws/install/px4_mission/lib/python3.10/site-packages/px4_mission/circle_test.py to circle_test.cpython-310.pyc
+[10.900s] byte-compiling /home/indowings/scripts/2026-06-25/ros2_ws/install/px4_mission/lib/python3.10/site-packages/px4_mission/mission.py to mission.cpython-310.pyc
+[10.907s] byte-compiling /home/indowings/scripts/2026-06-25/ros2_ws/install/px4_mission/lib/python3.10/site-packages/px4_mission/__init__.py to __init__.cpython-310.pyc
+[10.908s] running install_data
+[10.909s] copying resource/px4_mission -> /home/indowings/scripts/2026-06-25/ros2_ws/install/px4_mission/share/ament_index/resource_index/packages
+[10.909s] copying package.xml -> /home/indowings/scripts/2026-06-25/ros2_ws/install/px4_mission/share/px4_mission
+[10.910s] running install_egg_info
+[11.040s] Copying ../../build/px4_mission/px4_mission.egg-info to /home/indowings/scripts/2026-06-25/ros2_ws/install/px4_mission/lib/python3.10/site-packages/px4_mission-0.0.0-py3.10.egg-info
+[11.047s] running install_scripts
+[11.880s] Installing circle_test script to /home/indowings/scripts/2026-06-25/ros2_ws/install/px4_mission/lib/px4_mission
+[11.881s] Installing mission script to /home/indowings/scripts/2026-06-25/ros2_ws/install/px4_mission/lib/px4_mission
+[11.884s] writing list of installed files to '/home/indowings/scripts/2026-06-25/ros2_ws/build/px4_mission/install.log'
+[12.061s] Invoked command in '/home/indowings/scripts/2026-06-25/ros2_ws/src/px4_mission' returned '0': PYTHONPATH=/home/indowings/scripts/2026-06-25/ros2_ws/build/px4_mission/prefix_override:/home/indowings/.local/lib/python3.10/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/indowings/scripts/2026-06-25/ros2_ws/install/px4_mission/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/px4_mission build --build-base /home/indowings/scripts/2026-06-25/ros2_ws/build/px4_mission/build install --record /home/indowings/scripts/2026-06-25/ros2_ws/build/px4_mission/install.log --install-scripts $base/lib/px4_mission --single-version-externally-managed install_data --force

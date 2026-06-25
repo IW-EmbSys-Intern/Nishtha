@@ -1,0 +1,126 @@
+[0.000000] (-) TimerEvent: {}
+[0.000676] (drone_takeoff) JobQueued: {'identifier': 'drone_takeoff', 'dependencies': OrderedDict()}
+[0.002074] (drone_takeoff) JobStarted: {'identifier': 'drone_takeoff'}
+[0.099466] (-) TimerEvent: {}
+[0.200070] (-) TimerEvent: {}
+[0.301275] (-) TimerEvent: {}
+[0.403001] (-) TimerEvent: {}
+[0.504740] (-) TimerEvent: {}
+[0.605520] (-) TimerEvent: {}
+[0.709450] (-) TimerEvent: {}
+[0.810338] (-) TimerEvent: {}
+[0.911065] (-) TimerEvent: {}
+[1.012062] (-) TimerEvent: {}
+[1.113061] (-) TimerEvent: {}
+[1.213966] (-) TimerEvent: {}
+[1.315501] (-) TimerEvent: {}
+[1.416661] (-) TimerEvent: {}
+[1.518082] (-) TimerEvent: {}
+[1.619747] (-) TimerEvent: {}
+[1.720303] (-) TimerEvent: {}
+[1.821613] (-) TimerEvent: {}
+[1.922941] (-) TimerEvent: {}
+[2.023650] (-) TimerEvent: {}
+[2.124085] (-) TimerEvent: {}
+[2.225080] (-) TimerEvent: {}
+[2.327131] (-) TimerEvent: {}
+[2.427820] (-) TimerEvent: {}
+[2.529205] (-) TimerEvent: {}
+[2.632082] (-) TimerEvent: {}
+[2.733143] (-) TimerEvent: {}
+[2.834156] (-) TimerEvent: {}
+[2.934754] (-) TimerEvent: {}
+[3.035327] (-) TimerEvent: {}
+[3.136640] (-) TimerEvent: {}
+[3.237631] (-) TimerEvent: {}
+[3.338350] (-) TimerEvent: {}
+[3.439558] (-) TimerEvent: {}
+[3.540220] (-) TimerEvent: {}
+[3.641224] (-) TimerEvent: {}
+[3.741954] (-) TimerEvent: {}
+[3.842851] (-) TimerEvent: {}
+[3.944779] (-) TimerEvent: {}
+[4.046233] (-) TimerEvent: {}
+[4.147463] (-) TimerEvent: {}
+[4.249641] (-) TimerEvent: {}
+[4.350506] (-) TimerEvent: {}
+[4.451151] (-) TimerEvent: {}
+[4.553122] (-) TimerEvent: {}
+[4.654238] (-) TimerEvent: {}
+[4.755185] (-) TimerEvent: {}
+[4.855824] (-) TimerEvent: {}
+[4.956892] (-) TimerEvent: {}
+[5.057551] (-) TimerEvent: {}
+[5.158881] (-) TimerEvent: {}
+[5.206630] (drone_takeoff) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../../build/drone_takeoff', 'build', '--build-base', '/home/indowings/scripts/2026-06-19/build/drone_takeoff/build', 'install', '--record', '/home/indowings/scripts/2026-06-19/build/drone_takeoff/install.log', '--install-scripts', '$base/lib/drone_takeoff', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/indowings/scripts/2026-06-19/ros2_ws/src/drone_takeoff', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_IN:en', 'USER': 'indowings', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/indowings/scripts/2026-06-25/ros2_ws/install/px4_ros_com/lib:/home/indowings/scripts/2026-06-25/ros2_ws/install/px4_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/indowings', 'OLDPWD': '/home/indowings', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '1879', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'COLCON_PREFIX_PATH': '/home/indowings/scripts/2026-06-25/ros2_ws/install', 'ROS_DISTRO': 'humble', 'GTK_IM_MODULE': 'ibus', 'LOGNAME': 'indowings', '_': '/home/indowings/.local/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'indowings', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/opt/ros/humble/bin:/usr/lib/ccache:/home/indowings/ardupilot/Tools/autotest:/opt/gcc-arm-none-eabi-10-2020-q4-major/bin:/home/indowings/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/opt/xtensa-esp-elf/bin/', 'SESSION_MANAGER': 'local/indowings-Latitude-7290:@/tmp/.ICE-unix/1693,unix/indowings-Latitude-7290:/tmp/.ICE-unix/1693', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/ec0482ad_ee18_4448_b98f_faea621952c9', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':1', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'RMW_IMPLEMENTATION': 'rmw_cyclonedds_cpp', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.103', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/indowings/scripts/2026-06-25/ros2_ws/install/px4_ros_com:/home/indowings/scripts/2026-06-25/ros2_ws/install/px4_msgs:/home/indowings/scripts/2026-06-25/ros2_ws/install/px4_mission:/opt/ros/humble', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/indowings/scripts/2026-06-19/build/drone_takeoff', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/home/indowings/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/indowings/scripts/2026-06-19/build/drone_takeoff/prefix_override:/home/indowings/.local/lib/python3.10/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/indowings/scripts/2026-06-19/install/drone_takeoff/lib/python3.10/site-packages:/home/indowings/scripts/2026-06-25/ros2_ws/install/px4_ros_com/local/lib/python3.10/dist-packages:/home/indowings/scripts/2026-06-25/ros2_ws/install/px4_msgs/local/lib/python3.10/dist-packages:/home/indowings/scripts/2026-06-25/ros2_ws/build/px4_mission:/home/indowings/scripts/2026-06-25/ros2_ws/install/px4_mission/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/indowings/scripts/2026-06-25/ros2_ws/install/px4_ros_com:/home/indowings/scripts/2026-06-25/ros2_ws/install/px4_msgs'}, 'shell': False}
+[5.259153] (-) TimerEvent: {}
+[5.359992] (-) TimerEvent: {}
+[5.460718] (-) TimerEvent: {}
+[5.562027] (-) TimerEvent: {}
+[5.666035] (-) TimerEvent: {}
+[5.766846] (-) TimerEvent: {}
+[5.868004] (-) TimerEvent: {}
+[5.969435] (-) TimerEvent: {}
+[6.070317] (-) TimerEvent: {}
+[6.171269] (-) TimerEvent: {}
+[6.272490] (-) TimerEvent: {}
+[6.373556] (-) TimerEvent: {}
+[6.474265] (-) TimerEvent: {}
+[6.575204] (-) TimerEvent: {}
+[6.676151] (-) TimerEvent: {}
+[6.777234] (-) TimerEvent: {}
+[6.878058] (-) TimerEvent: {}
+[6.979325] (-) TimerEvent: {}
+[7.080302] (-) TimerEvent: {}
+[7.181379] (-) TimerEvent: {}
+[7.205211] (drone_takeoff) StdoutLine: {'line': b'running egg_info\n'}
+[7.281697] (-) TimerEvent: {}
+[7.330669] (drone_takeoff) StdoutLine: {'line': b'creating ../../../build/drone_takeoff/drone_takeoff.egg-info\n'}
+[7.331362] (drone_takeoff) StdoutLine: {'line': b'writing ../../../build/drone_takeoff/drone_takeoff.egg-info/PKG-INFO\n'}
+[7.334552] (drone_takeoff) StdoutLine: {'line': b'writing dependency_links to ../../../build/drone_takeoff/drone_takeoff.egg-info/dependency_links.txt\n'}
+[7.336200] (drone_takeoff) StdoutLine: {'line': b'writing entry points to ../../../build/drone_takeoff/drone_takeoff.egg-info/entry_points.txt\n'}
+[7.338866] (drone_takeoff) StdoutLine: {'line': b'writing requirements to ../../../build/drone_takeoff/drone_takeoff.egg-info/requires.txt\n'}
+[7.340628] (drone_takeoff) StdoutLine: {'line': b'writing top-level names to ../../../build/drone_takeoff/drone_takeoff.egg-info/top_level.txt\n'}
+[7.341616] (drone_takeoff) StdoutLine: {'line': b"writing manifest file '../../../build/drone_takeoff/drone_takeoff.egg-info/SOURCES.txt'\n"}
+[7.382348] (-) TimerEvent: {}
+[7.483834] (-) TimerEvent: {}
+[7.586435] (-) TimerEvent: {}
+[7.602138] (drone_takeoff) StdoutLine: {'line': b"reading manifest file '../../../build/drone_takeoff/drone_takeoff.egg-info/SOURCES.txt'\n"}
+[7.610147] (drone_takeoff) StdoutLine: {'line': b"writing manifest file '../../../build/drone_takeoff/drone_takeoff.egg-info/SOURCES.txt'\n"}
+[7.610623] (drone_takeoff) StdoutLine: {'line': b'running build\n'}
+[7.611924] (drone_takeoff) StdoutLine: {'line': b'running build_py\n'}
+[7.613315] (drone_takeoff) StdoutLine: {'line': b'creating /home/indowings/scripts/2026-06-19/build/drone_takeoff/build/lib/drone_takeoff\n'}
+[7.613823] (drone_takeoff) StdoutLine: {'line': b'copying drone_takeoff/takeoff_node.py -> /home/indowings/scripts/2026-06-19/build/drone_takeoff/build/lib/drone_takeoff\n'}
+[7.615055] (drone_takeoff) StdoutLine: {'line': b'copying drone_takeoff/__init__.py -> /home/indowings/scripts/2026-06-19/build/drone_takeoff/build/lib/drone_takeoff\n'}
+[7.616783] (drone_takeoff) StdoutLine: {'line': b'running install\n'}
+[7.643690] (drone_takeoff) StdoutLine: {'line': b'running install_lib\n'}
+[7.686536] (-) TimerEvent: {}
+[7.770131] (drone_takeoff) StdoutLine: {'line': b'creating /home/indowings/scripts/2026-06-19/install/drone_takeoff/lib/python3.10/site-packages/drone_takeoff\n'}
+[7.770622] (drone_takeoff) StdoutLine: {'line': b'copying /home/indowings/scripts/2026-06-19/build/drone_takeoff/build/lib/drone_takeoff/takeoff_node.py -> /home/indowings/scripts/2026-06-19/install/drone_takeoff/lib/python3.10/site-packages/drone_takeoff\n'}
+[7.771024] (drone_takeoff) StdoutLine: {'line': b'copying /home/indowings/scripts/2026-06-19/build/drone_takeoff/build/lib/drone_takeoff/__init__.py -> /home/indowings/scripts/2026-06-19/install/drone_takeoff/lib/python3.10/site-packages/drone_takeoff\n'}
+[7.773029] (drone_takeoff) StdoutLine: {'line': b'byte-compiling /home/indowings/scripts/2026-06-19/install/drone_takeoff/lib/python3.10/site-packages/drone_takeoff/takeoff_node.py to takeoff_node.cpython-310.pyc\n'}
+[7.776688] (drone_takeoff) StdoutLine: {'line': b'byte-compiling /home/indowings/scripts/2026-06-19/install/drone_takeoff/lib/python3.10/site-packages/drone_takeoff/__init__.py to __init__.cpython-310.pyc\n'}
+[7.780648] (drone_takeoff) StdoutLine: {'line': b'running install_data\n'}
+[7.784335] (drone_takeoff) StdoutLine: {'line': b'creating /home/indowings/scripts/2026-06-19/install/drone_takeoff/share/ament_index/resource_index/packages\n'}
+[7.787415] (drone_takeoff) StdoutLine: {'line': b'copying resource/drone_takeoff -> /home/indowings/scripts/2026-06-19/install/drone_takeoff/share/ament_index/resource_index/packages\n'}
+[7.788576] (-) TimerEvent: {}
+[7.789507] (drone_takeoff) StdoutLine: {'line': b'copying package.xml -> /home/indowings/scripts/2026-06-19/install/drone_takeoff/share/drone_takeoff\n'}
+[7.791247] (drone_takeoff) StdoutLine: {'line': b'running install_egg_info\n'}
+[7.888661] (-) TimerEvent: {}
+[7.890759] (drone_takeoff) StdoutLine: {'line': b'Copying ../../../build/drone_takeoff/drone_takeoff.egg-info to /home/indowings/scripts/2026-06-19/install/drone_takeoff/lib/python3.10/site-packages/drone_takeoff-0.0.0-py3.10.egg-info\n'}
+[7.893247] (drone_takeoff) StdoutLine: {'line': b'running install_scripts\n'}
+[7.988858] (-) TimerEvent: {}
+[8.089616] (-) TimerEvent: {}
+[8.191248] (-) TimerEvent: {}
+[8.291705] (-) TimerEvent: {}
+[8.392550] (-) TimerEvent: {}
+[8.493846] (-) TimerEvent: {}
+[8.595927] (-) TimerEvent: {}
+[8.696722] (-) TimerEvent: {}
+[8.788575] (drone_takeoff) StdoutLine: {'line': b'Installing takeoff_node script to /home/indowings/scripts/2026-06-19/install/drone_takeoff/lib/drone_takeoff\n'}
+[8.791390] (drone_takeoff) StdoutLine: {'line': b"writing list of installed files to '/home/indowings/scripts/2026-06-19/build/drone_takeoff/install.log'\n"}
+[8.796948] (-) TimerEvent: {}
+[8.897781] (-) TimerEvent: {}
+[8.931372] (drone_takeoff) CommandEnded: {'returncode': 0}
+[8.989488] (drone_takeoff) JobEnded: {'identifier': 'drone_takeoff', 'rc': 0}
+[8.991829] (-) EventReactorShutdown: {}

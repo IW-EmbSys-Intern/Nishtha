@@ -1,0 +1,19 @@
+[6.793s] Invoking command in '/home/indowings/scripts/2026-06-25/ros2_ws/build/px4_mission': PYTHONPATH=/home/indowings/scripts/2026-06-25/ros2_ws/build/px4_mission/prefix_override:/home/indowings/.local/lib/python3.10/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/indowings/scripts/2026-06-25/ros2_ws/install/px4_mission/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/indowings/scripts/2026-06-25/ros2_ws/build/px4_mission/build --no-deps symlink_data --force
+[8.821s] running develop
+[10.223s] running egg_info
+[10.339s] writing px4_mission.egg-info/PKG-INFO
+[10.342s] writing dependency_links to px4_mission.egg-info/dependency_links.txt
+[10.345s] writing entry points to px4_mission.egg-info/entry_points.txt
+[10.348s] writing requirements to px4_mission.egg-info/requires.txt
+[10.349s] writing top-level names to px4_mission.egg-info/top_level.txt
+[10.587s] reading manifest file 'px4_mission.egg-info/SOURCES.txt'
+[10.594s] writing manifest file 'px4_mission.egg-info/SOURCES.txt'
+[10.697s] running build_ext
+[10.699s] Creating /home/indowings/scripts/2026-06-25/ros2_ws/install/px4_mission/lib/python3.10/site-packages/px4-mission.egg-link (link to .)
+[10.700s] Installing mission script to /home/indowings/scripts/2026-06-25/ros2_ws/install/px4_mission/lib/px4_mission
+[10.701s] 
+[10.701s] Installed /home/indowings/scripts/2026-06-25/ros2_ws/build/px4_mission
+[10.702s] running symlink_data
+[10.702s] symbolically linking /home/indowings/scripts/2026-06-25/ros2_ws/build/px4_mission/resource/px4_mission -> /home/indowings/scripts/2026-06-25/ros2_ws/install/px4_mission/share/ament_index/resource_index/packages
+[10.703s] symbolically linking /home/indowings/scripts/2026-06-25/ros2_ws/build/px4_mission/package.xml -> /home/indowings/scripts/2026-06-25/ros2_ws/install/px4_mission/share/px4_mission
+[10.878s] Invoked command in '/home/indowings/scripts/2026-06-25/ros2_ws/build/px4_mission' returned '0': PYTHONPATH=/home/indowings/scripts/2026-06-25/ros2_ws/build/px4_mission/prefix_override:/home/indowings/.local/lib/python3.10/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/indowings/scripts/2026-06-25/ros2_ws/install/px4_mission/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/indowings/scripts/2026-06-25/ros2_ws/build/px4_mission/build --no-deps symlink_data --force

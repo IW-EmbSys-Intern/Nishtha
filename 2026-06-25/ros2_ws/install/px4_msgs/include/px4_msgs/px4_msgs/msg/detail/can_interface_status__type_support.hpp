@@ -1,0 +1,1 @@
+/home/indowings/scripts/2026-06-25/ros2_ws/build/px4_msgs/rosidl_generator_cpp/px4_msgs/msg/detail/can_interface_status__type_support.hpp

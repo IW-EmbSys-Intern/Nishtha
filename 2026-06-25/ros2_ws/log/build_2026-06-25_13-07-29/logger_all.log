@@ -1,0 +1,278 @@
+[0.888s] DEBUG:colcon:Command line arguments: ['/home/indowings/.local/bin/colcon', 'build']
+[0.889s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x77621b94db10>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x77621b94d600>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x77621b94d600>>)
+[1.156s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[1.157s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[1.158s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[1.158s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[1.159s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[1.159s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[1.160s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/indowings/scripts/2026-06-25/ros2_ws'
+[1.160s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[1.161s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[1.161s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[1.162s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[1.162s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[1.162s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[1.162s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[1.163s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[1.163s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[1.340s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[1.340s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[1.340s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[1.340s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[1.340s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[1.341s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[1.341s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[1.341s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[1.341s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[1.342s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[1.342s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[1.342s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[1.342s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[1.343s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[1.344s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[1.344s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[1.345s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[1.345s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[1.346s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[1.346s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[1.347s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[1.347s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[1.348s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[1.349s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[1.349s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[1.349s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[1.350s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[1.350s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[1.351s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_mission) by extensions ['ignore', 'ignore_ament_install']
+[1.351s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_mission) by extension 'ignore'
+[1.351s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_mission) by extension 'ignore_ament_install'
+[1.352s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_mission) by extensions ['colcon_pkg']
+[1.352s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_mission) by extension 'colcon_pkg'
+[1.352s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_mission) by extensions ['colcon_meta']
+[1.352s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_mission) by extension 'colcon_meta'
+[1.353s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_mission) by extensions ['ros']
+[1.353s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_mission) by extension 'ros'
+[1.367s] DEBUG:colcon.colcon_core.package_identification:Package 'src/px4_mission' with type 'ros.ament_python' and name 'px4_mission'
+[1.367s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_msgs) by extensions ['ignore', 'ignore_ament_install']
+[1.368s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_msgs) by extension 'ignore'
+[1.369s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_msgs) by extension 'ignore_ament_install'
+[1.370s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_msgs) by extensions ['colcon_pkg']
+[1.370s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_msgs) by extension 'colcon_pkg'
+[1.370s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_msgs) by extensions ['colcon_meta']
+[1.370s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_msgs) by extension 'colcon_meta'
+[1.370s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_msgs) by extensions ['ros']
+[1.371s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_msgs) by extension 'ros'
+[1.374s] DEBUG:colcon.colcon_core.package_identification:Package 'src/px4_msgs' with type 'ros.ament_cmake' and name 'px4_msgs'
+[1.375s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_ros_com) by extensions ['ignore', 'ignore_ament_install']
+[1.375s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_ros_com) by extension 'ignore'
+[1.376s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_ros_com) by extension 'ignore_ament_install'
+[1.377s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_ros_com) by extensions ['colcon_pkg']
+[1.377s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_ros_com) by extension 'colcon_pkg'
+[1.378s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_ros_com) by extensions ['colcon_meta']
+[1.378s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_ros_com) by extension 'colcon_meta'
+[1.379s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_ros_com) by extensions ['ros']
+[1.379s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_ros_com) by extension 'ros'
+[1.386s] DEBUG:colcon.colcon_core.package_identification:Package 'src/px4_ros_com' with type 'ros.ament_cmake' and name 'px4_ros_com'
+[1.386s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[1.386s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[1.387s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[1.387s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[1.387s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[1.501s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[1.502s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[1.514s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 3 installed packages in /home/indowings/scripts/2026-06-25/ros2_ws/install
+[1.523s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 281 installed packages in /opt/ros/humble
+[1.532s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[1.866s] Level 5:colcon.colcon_core.verb:set package 'px4_mission' build argument 'cmake_args' from command line to 'None'
+[1.866s] Level 5:colcon.colcon_core.verb:set package 'px4_mission' build argument 'cmake_target' from command line to 'None'
+[1.867s] Level 5:colcon.colcon_core.verb:set package 'px4_mission' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.867s] Level 5:colcon.colcon_core.verb:set package 'px4_mission' build argument 'cmake_clean_cache' from command line to 'False'
+[1.867s] Level 5:colcon.colcon_core.verb:set package 'px4_mission' build argument 'cmake_clean_first' from command line to 'False'
+[1.868s] Level 5:colcon.colcon_core.verb:set package 'px4_mission' build argument 'cmake_force_configure' from command line to 'False'
+[1.868s] Level 5:colcon.colcon_core.verb:set package 'px4_mission' build argument 'ament_cmake_args' from command line to 'None'
+[1.868s] Level 5:colcon.colcon_core.verb:set package 'px4_mission' build argument 'catkin_cmake_args' from command line to 'None'
+[1.869s] Level 5:colcon.colcon_core.verb:set package 'px4_mission' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.869s] DEBUG:colcon.colcon_core.verb:Building package 'px4_mission' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/indowings/scripts/2026-06-25/ros2_ws/build/px4_mission', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/indowings/scripts/2026-06-25/ros2_ws/install/px4_mission', 'merge_install': False, 'path': '/home/indowings/scripts/2026-06-25/ros2_ws/src/px4_mission', 'symlink_install': False, 'test_result_base': None}
+[1.871s] Level 5:colcon.colcon_core.verb:set package 'px4_msgs' build argument 'cmake_args' from command line to 'None'
+[1.871s] Level 5:colcon.colcon_core.verb:set package 'px4_msgs' build argument 'cmake_target' from command line to 'None'
+[1.871s] Level 5:colcon.colcon_core.verb:set package 'px4_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.872s] Level 5:colcon.colcon_core.verb:set package 'px4_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[1.872s] Level 5:colcon.colcon_core.verb:set package 'px4_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[1.872s] Level 5:colcon.colcon_core.verb:set package 'px4_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[1.872s] Level 5:colcon.colcon_core.verb:set package 'px4_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[1.872s] Level 5:colcon.colcon_core.verb:set package 'px4_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[1.872s] Level 5:colcon.colcon_core.verb:set package 'px4_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.872s] DEBUG:colcon.colcon_core.verb:Building package 'px4_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/indowings/scripts/2026-06-25/ros2_ws/build/px4_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/indowings/scripts/2026-06-25/ros2_ws/install/px4_msgs', 'merge_install': False, 'path': '/home/indowings/scripts/2026-06-25/ros2_ws/src/px4_msgs', 'symlink_install': False, 'test_result_base': None}
+[1.875s] Level 5:colcon.colcon_core.verb:set package 'px4_ros_com' build argument 'cmake_args' from command line to 'None'
+[1.875s] Level 5:colcon.colcon_core.verb:set package 'px4_ros_com' build argument 'cmake_target' from command line to 'None'
+[1.875s] Level 5:colcon.colcon_core.verb:set package 'px4_ros_com' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.876s] Level 5:colcon.colcon_core.verb:set package 'px4_ros_com' build argument 'cmake_clean_cache' from command line to 'False'
+[1.876s] Level 5:colcon.colcon_core.verb:set package 'px4_ros_com' build argument 'cmake_clean_first' from command line to 'False'
+[1.876s] Level 5:colcon.colcon_core.verb:set package 'px4_ros_com' build argument 'cmake_force_configure' from command line to 'False'
+[1.876s] Level 5:colcon.colcon_core.verb:set package 'px4_ros_com' build argument 'ament_cmake_args' from command line to 'None'
+[1.876s] Level 5:colcon.colcon_core.verb:set package 'px4_ros_com' build argument 'catkin_cmake_args' from command line to 'None'
+[1.876s] Level 5:colcon.colcon_core.verb:set package 'px4_ros_com' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.877s] DEBUG:colcon.colcon_core.verb:Building package 'px4_ros_com' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/indowings/scripts/2026-06-25/ros2_ws/build/px4_ros_com', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/indowings/scripts/2026-06-25/ros2_ws/install/px4_ros_com', 'merge_install': False, 'path': '/home/indowings/scripts/2026-06-25/ros2_ws/src/px4_ros_com', 'symlink_install': False, 'test_result_base': None}
+[1.877s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[1.881s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[1.883s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/indowings/scripts/2026-06-25/ros2_ws/src/px4_msgs' with build type 'ament_cmake'
+[1.883s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/indowings/scripts/2026-06-25/ros2_ws/src/px4_msgs'
+[1.900s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[1.901s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.901s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.920s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/indowings/scripts/2026-06-25/ros2_ws/src/px4_mission' with build type 'ament_python'
+[1.921s] Level 1:colcon.colcon_core.shell:create_environment_hook('px4_mission', 'ament_prefix_path')
+[1.922s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/indowings/scripts/2026-06-25/ros2_ws/install/px4_mission/share/px4_mission/hook/ament_prefix_path.ps1'
+[1.925s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/indowings/scripts/2026-06-25/ros2_ws/install/px4_mission/share/px4_mission/hook/ament_prefix_path.dsv'
+[1.929s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/indowings/scripts/2026-06-25/ros2_ws/install/px4_mission/share/px4_mission/hook/ament_prefix_path.sh'
+[1.936s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.937s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.974s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/indowings/scripts/2026-06-25/ros2_ws/build/px4_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/indowings/scripts/2026-06-25/ros2_ws/install/px4_mission:/opt/ros/humble /usr/bin/cmake /home/indowings/scripts/2026-06-25/ros2_ws/src/px4_msgs -DCMAKE_INSTALL_PREFIX=/home/indowings/scripts/2026-06-25/ros2_ws/install/px4_msgs
+[3.319s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/indowings/scripts/2026-06-25/ros2_ws/src/px4_mission'
+[3.322s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.322s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[6.617s] DEBUG:colcon.colcon_core.task.python.build:Available setuptools commands: install_lib, bdist_wheel, extract_messages, develop, rotate, bdist_rpm, check, build_py, egg_info, editable_wheel, install_egg_info, alias, easy_install, bdist, build_scripts, install, sdist, build_ext, install_scripts, install_headers, init_catalog, update_catalog, saveopts, install_data, dist_info, symlink_data, compile_catalog, bdist_egg, build, bdist_dumb, build_clib, setopt, clean
+[6.619s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/indowings/scripts/2026-06-25/ros2_ws/build/px4_mission': PYTHONPATH=/home/indowings/scripts/2026-06-25/ros2_ws/build/px4_mission/prefix_override:/home/indowings/.local/lib/python3.10/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/indowings/scripts/2026-06-25/ros2_ws/install/px4_mission/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/indowings/scripts/2026-06-25/ros2_ws/build/px4_mission/build
+[10.553s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/indowings/scripts/2026-06-25/ros2_ws/build/px4_mission' returned '0': PYTHONPATH=/home/indowings/scripts/2026-06-25/ros2_ws/build/px4_mission/prefix_override:/home/indowings/.local/lib/python3.10/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/indowings/scripts/2026-06-25/ros2_ws/install/px4_mission/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/indowings/scripts/2026-06-25/ros2_ws/build/px4_mission/build
+[10.560s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/indowings/scripts/2026-06-25/ros2_ws/src/px4_mission': PYTHONPATH=/home/indowings/scripts/2026-06-25/ros2_ws/build/px4_mission/prefix_override:/home/indowings/.local/lib/python3.10/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/indowings/scripts/2026-06-25/ros2_ws/install/px4_mission/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/px4_mission build --build-base /home/indowings/scripts/2026-06-25/ros2_ws/build/px4_mission/build install --record /home/indowings/scripts/2026-06-25/ros2_ws/build/px4_mission/install.log --install-scripts $base/lib/px4_mission --single-version-externally-managed install_data --force
+[14.071s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/indowings/scripts/2026-06-25/ros2_ws/src/px4_mission' returned '0': PYTHONPATH=/home/indowings/scripts/2026-06-25/ros2_ws/build/px4_mission/prefix_override:/home/indowings/.local/lib/python3.10/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/indowings/scripts/2026-06-25/ros2_ws/install/px4_mission/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/px4_mission build --build-base /home/indowings/scripts/2026-06-25/ros2_ws/build/px4_mission/build install --record /home/indowings/scripts/2026-06-25/ros2_ws/build/px4_mission/install.log --install-scripts $base/lib/px4_mission --single-version-externally-managed install_data --force
+[14.089s] Level 1:colcon.colcon_core.environment:checking '/home/indowings/scripts/2026-06-25/ros2_ws/install/px4_mission' for CMake module files
+[14.091s] Level 1:colcon.colcon_core.environment:checking '/home/indowings/scripts/2026-06-25/ros2_ws/install/px4_mission' for CMake config files
+[14.094s] Level 1:colcon.colcon_core.environment:checking '/home/indowings/scripts/2026-06-25/ros2_ws/install/px4_mission/lib'
+[14.095s] Level 1:colcon.colcon_core.environment:checking '/home/indowings/scripts/2026-06-25/ros2_ws/install/px4_mission/bin'
+[14.095s] Level 1:colcon.colcon_core.environment:checking '/home/indowings/scripts/2026-06-25/ros2_ws/install/px4_mission/lib/pkgconfig/px4_mission.pc'
+[14.097s] Level 1:colcon.colcon_core.environment:checking '/home/indowings/scripts/2026-06-25/ros2_ws/install/px4_mission/lib/python3.10/site-packages'
+[14.098s] Level 1:colcon.colcon_core.shell:create_environment_hook('px4_mission', 'pythonpath')
+[14.100s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/indowings/scripts/2026-06-25/ros2_ws/install/px4_mission/share/px4_mission/hook/pythonpath.ps1'
+[14.104s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/indowings/scripts/2026-06-25/ros2_ws/install/px4_mission/share/px4_mission/hook/pythonpath.dsv'
+[14.107s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/indowings/scripts/2026-06-25/ros2_ws/install/px4_mission/share/px4_mission/hook/pythonpath.sh'
+[14.113s] Level 1:colcon.colcon_core.environment:checking '/home/indowings/scripts/2026-06-25/ros2_ws/install/px4_mission/bin'
+[14.113s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(px4_mission)
+[14.115s] INFO:colcon.colcon_core.shell:Creating package script '/home/indowings/scripts/2026-06-25/ros2_ws/install/px4_mission/share/px4_mission/package.ps1'
+[14.122s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/indowings/scripts/2026-06-25/ros2_ws/install/px4_mission/share/px4_mission/package.dsv'
+[14.125s] INFO:colcon.colcon_core.shell:Creating package script '/home/indowings/scripts/2026-06-25/ros2_ws/install/px4_mission/share/px4_mission/package.sh'
+[14.128s] INFO:colcon.colcon_core.shell:Creating package script '/home/indowings/scripts/2026-06-25/ros2_ws/install/px4_mission/share/px4_mission/package.bash'
+[14.132s] INFO:colcon.colcon_core.shell:Creating package script '/home/indowings/scripts/2026-06-25/ros2_ws/install/px4_mission/share/px4_mission/package.zsh'
+[14.138s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/indowings/scripts/2026-06-25/ros2_ws/install/px4_mission/share/colcon-core/packages/px4_mission)
+[25.041s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/indowings/scripts/2026-06-25/ros2_ws/build/px4_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/indowings/scripts/2026-06-25/ros2_ws/install/px4_mission:/opt/ros/humble /usr/bin/cmake /home/indowings/scripts/2026-06-25/ros2_ws/src/px4_msgs -DCMAKE_INSTALL_PREFIX=/home/indowings/scripts/2026-06-25/ros2_ws/install/px4_msgs
+[25.047s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/indowings/scripts/2026-06-25/ros2_ws/build/px4_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/indowings/scripts/2026-06-25/ros2_ws/install/px4_mission:/opt/ros/humble /usr/bin/cmake --build /home/indowings/scripts/2026-06-25/ros2_ws/build/px4_msgs -- -j8 -l8
+[47.672s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/indowings/scripts/2026-06-25/ros2_ws/build/px4_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/indowings/scripts/2026-06-25/ros2_ws/install/px4_mission:/opt/ros/humble /usr/bin/cmake --build /home/indowings/scripts/2026-06-25/ros2_ws/build/px4_msgs -- -j8 -l8
+[47.727s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/indowings/scripts/2026-06-25/ros2_ws/build/px4_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/indowings/scripts/2026-06-25/ros2_ws/install/px4_mission:/opt/ros/humble /usr/bin/cmake --install /home/indowings/scripts/2026-06-25/ros2_ws/build/px4_msgs
+[51.899s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(px4_msgs)
+[51.902s] Level 1:colcon.colcon_core.environment:checking '/home/indowings/scripts/2026-06-25/ros2_ws/install/px4_msgs' for CMake module files
+[51.904s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/indowings/scripts/2026-06-25/ros2_ws/build/px4_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/indowings/scripts/2026-06-25/ros2_ws/install/px4_mission:/opt/ros/humble /usr/bin/cmake --install /home/indowings/scripts/2026-06-25/ros2_ws/build/px4_msgs
+[51.907s] Level 1:colcon.colcon_core.environment:checking '/home/indowings/scripts/2026-06-25/ros2_ws/install/px4_msgs' for CMake config files
+[51.924s] Level 1:colcon.colcon_core.shell:create_environment_hook('px4_msgs', 'cmake_prefix_path')
+[51.926s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/indowings/scripts/2026-06-25/ros2_ws/install/px4_msgs/share/px4_msgs/hook/cmake_prefix_path.ps1'
+[51.929s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/indowings/scripts/2026-06-25/ros2_ws/install/px4_msgs/share/px4_msgs/hook/cmake_prefix_path.dsv'
+[51.933s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/indowings/scripts/2026-06-25/ros2_ws/install/px4_msgs/share/px4_msgs/hook/cmake_prefix_path.sh'
+[51.937s] Level 1:colcon.colcon_core.environment:checking '/home/indowings/scripts/2026-06-25/ros2_ws/install/px4_msgs/lib'
+[51.938s] Level 1:colcon.colcon_core.shell:create_environment_hook('px4_msgs', 'ld_library_path_lib')
+[51.940s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/indowings/scripts/2026-06-25/ros2_ws/install/px4_msgs/share/px4_msgs/hook/ld_library_path_lib.ps1'
+[51.943s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/indowings/scripts/2026-06-25/ros2_ws/install/px4_msgs/share/px4_msgs/hook/ld_library_path_lib.dsv'
+[51.946s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/indowings/scripts/2026-06-25/ros2_ws/install/px4_msgs/share/px4_msgs/hook/ld_library_path_lib.sh'
+[51.950s] Level 1:colcon.colcon_core.environment:checking '/home/indowings/scripts/2026-06-25/ros2_ws/install/px4_msgs/bin'
+[51.950s] Level 1:colcon.colcon_core.environment:checking '/home/indowings/scripts/2026-06-25/ros2_ws/install/px4_msgs/lib/pkgconfig/px4_msgs.pc'
+[51.951s] Level 1:colcon.colcon_core.environment:checking '/home/indowings/scripts/2026-06-25/ros2_ws/install/px4_msgs/lib/python3.10/site-packages'
+[51.953s] Level 1:colcon.colcon_core.environment:checking '/home/indowings/scripts/2026-06-25/ros2_ws/install/px4_msgs/bin'
+[51.954s] INFO:colcon.colcon_core.shell:Creating package script '/home/indowings/scripts/2026-06-25/ros2_ws/install/px4_msgs/share/px4_msgs/package.ps1'
+[51.959s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/indowings/scripts/2026-06-25/ros2_ws/install/px4_msgs/share/px4_msgs/package.dsv'
+[51.963s] INFO:colcon.colcon_core.shell:Creating package script '/home/indowings/scripts/2026-06-25/ros2_ws/install/px4_msgs/share/px4_msgs/package.sh'
+[51.966s] INFO:colcon.colcon_core.shell:Creating package script '/home/indowings/scripts/2026-06-25/ros2_ws/install/px4_msgs/share/px4_msgs/package.bash'
+[51.971s] INFO:colcon.colcon_core.shell:Creating package script '/home/indowings/scripts/2026-06-25/ros2_ws/install/px4_msgs/share/px4_msgs/package.zsh'
+[51.972s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/indowings/scripts/2026-06-25/ros2_ws/install/px4_msgs/share/colcon-core/packages/px4_msgs)
+[51.974s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(px4_msgs)
+[51.975s] Level 1:colcon.colcon_core.environment:checking '/home/indowings/scripts/2026-06-25/ros2_ws/install/px4_msgs' for CMake module files
+[51.980s] Level 1:colcon.colcon_core.environment:checking '/home/indowings/scripts/2026-06-25/ros2_ws/install/px4_msgs' for CMake config files
+[51.997s] Level 1:colcon.colcon_core.shell:create_environment_hook('px4_msgs', 'cmake_prefix_path')
+[52.000s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/indowings/scripts/2026-06-25/ros2_ws/install/px4_msgs/share/px4_msgs/hook/cmake_prefix_path.ps1'
+[52.004s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/indowings/scripts/2026-06-25/ros2_ws/install/px4_msgs/share/px4_msgs/hook/cmake_prefix_path.dsv'
+[52.007s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/indowings/scripts/2026-06-25/ros2_ws/install/px4_msgs/share/px4_msgs/hook/cmake_prefix_path.sh'
+[52.014s] Level 1:colcon.colcon_core.environment:checking '/home/indowings/scripts/2026-06-25/ros2_ws/install/px4_msgs/lib'
+[52.014s] Level 1:colcon.colcon_core.shell:create_environment_hook('px4_msgs', 'ld_library_path_lib')
+[52.016s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/indowings/scripts/2026-06-25/ros2_ws/install/px4_msgs/share/px4_msgs/hook/ld_library_path_lib.ps1'
+[52.017s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/indowings/scripts/2026-06-25/ros2_ws/install/px4_msgs/share/px4_msgs/hook/ld_library_path_lib.dsv'
+[52.019s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/indowings/scripts/2026-06-25/ros2_ws/install/px4_msgs/share/px4_msgs/hook/ld_library_path_lib.sh'
+[52.023s] Level 1:colcon.colcon_core.environment:checking '/home/indowings/scripts/2026-06-25/ros2_ws/install/px4_msgs/bin'
+[52.023s] Level 1:colcon.colcon_core.environment:checking '/home/indowings/scripts/2026-06-25/ros2_ws/install/px4_msgs/lib/pkgconfig/px4_msgs.pc'
+[52.024s] Level 1:colcon.colcon_core.environment:checking '/home/indowings/scripts/2026-06-25/ros2_ws/install/px4_msgs/lib/python3.10/site-packages'
+[52.026s] Level 1:colcon.colcon_core.environment:checking '/home/indowings/scripts/2026-06-25/ros2_ws/install/px4_msgs/bin'
+[52.029s] INFO:colcon.colcon_core.shell:Creating package script '/home/indowings/scripts/2026-06-25/ros2_ws/install/px4_msgs/share/px4_msgs/package.ps1'
+[52.035s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/indowings/scripts/2026-06-25/ros2_ws/install/px4_msgs/share/px4_msgs/package.dsv'
+[52.040s] INFO:colcon.colcon_core.shell:Creating package script '/home/indowings/scripts/2026-06-25/ros2_ws/install/px4_msgs/share/px4_msgs/package.sh'
+[52.043s] INFO:colcon.colcon_core.shell:Creating package script '/home/indowings/scripts/2026-06-25/ros2_ws/install/px4_msgs/share/px4_msgs/package.bash'
+[52.044s] INFO:colcon.colcon_core.shell:Creating package script '/home/indowings/scripts/2026-06-25/ros2_ws/install/px4_msgs/share/px4_msgs/package.zsh'
+[52.048s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/indowings/scripts/2026-06-25/ros2_ws/install/px4_msgs/share/colcon-core/packages/px4_msgs)
+[52.051s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/indowings/scripts/2026-06-25/ros2_ws/src/px4_ros_com' with build type 'ament_cmake'
+[52.051s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/indowings/scripts/2026-06-25/ros2_ws/src/px4_ros_com'
+[52.054s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[52.055s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[52.117s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/indowings/scripts/2026-06-25/ros2_ws/build/px4_ros_com': CMAKE_PREFIX_PATH=/home/indowings/scripts/2026-06-25/ros2_ws/install/px4_msgs:/home/indowings/scripts/2026-06-25/ros2_ws/install/px4_ros_com:/home/indowings/scripts/2026-06-25/ros2_ws/install/px4_mission:/opt/ros/humble LD_LIBRARY_PATH=/home/indowings/scripts/2026-06-25/ros2_ws/install/px4_msgs/lib:/home/indowings/scripts/2026-06-25/ros2_ws/install/px4_ros_com/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake /home/indowings/scripts/2026-06-25/ros2_ws/src/px4_ros_com -DCMAKE_INSTALL_PREFIX=/home/indowings/scripts/2026-06-25/ros2_ws/install/px4_ros_com
+[55.431s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/indowings/scripts/2026-06-25/ros2_ws/build/px4_ros_com' returned '0': CMAKE_PREFIX_PATH=/home/indowings/scripts/2026-06-25/ros2_ws/install/px4_msgs:/home/indowings/scripts/2026-06-25/ros2_ws/install/px4_ros_com:/home/indowings/scripts/2026-06-25/ros2_ws/install/px4_mission:/opt/ros/humble LD_LIBRARY_PATH=/home/indowings/scripts/2026-06-25/ros2_ws/install/px4_msgs/lib:/home/indowings/scripts/2026-06-25/ros2_ws/install/px4_ros_com/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake /home/indowings/scripts/2026-06-25/ros2_ws/src/px4_ros_com -DCMAKE_INSTALL_PREFIX=/home/indowings/scripts/2026-06-25/ros2_ws/install/px4_ros_com
+[55.439s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/indowings/scripts/2026-06-25/ros2_ws/build/px4_ros_com': CMAKE_PREFIX_PATH=/home/indowings/scripts/2026-06-25/ros2_ws/install/px4_msgs:/home/indowings/scripts/2026-06-25/ros2_ws/install/px4_ros_com:/home/indowings/scripts/2026-06-25/ros2_ws/install/px4_mission:/opt/ros/humble LD_LIBRARY_PATH=/home/indowings/scripts/2026-06-25/ros2_ws/install/px4_msgs/lib:/home/indowings/scripts/2026-06-25/ros2_ws/install/px4_ros_com/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/indowings/scripts/2026-06-25/ros2_ws/build/px4_ros_com -- -j8 -l8
+[58.895s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/indowings/scripts/2026-06-25/ros2_ws/build/px4_ros_com' returned '0': CMAKE_PREFIX_PATH=/home/indowings/scripts/2026-06-25/ros2_ws/install/px4_msgs:/home/indowings/scripts/2026-06-25/ros2_ws/install/px4_ros_com:/home/indowings/scripts/2026-06-25/ros2_ws/install/px4_mission:/opt/ros/humble LD_LIBRARY_PATH=/home/indowings/scripts/2026-06-25/ros2_ws/install/px4_msgs/lib:/home/indowings/scripts/2026-06-25/ros2_ws/install/px4_ros_com/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/indowings/scripts/2026-06-25/ros2_ws/build/px4_ros_com -- -j8 -l8
+[58.906s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/indowings/scripts/2026-06-25/ros2_ws/build/px4_ros_com': CMAKE_PREFIX_PATH=/home/indowings/scripts/2026-06-25/ros2_ws/install/px4_msgs:/home/indowings/scripts/2026-06-25/ros2_ws/install/px4_ros_com:/home/indowings/scripts/2026-06-25/ros2_ws/install/px4_mission:/opt/ros/humble LD_LIBRARY_PATH=/home/indowings/scripts/2026-06-25/ros2_ws/install/px4_msgs/lib:/home/indowings/scripts/2026-06-25/ros2_ws/install/px4_ros_com/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/indowings/scripts/2026-06-25/ros2_ws/build/px4_ros_com
+[59.300s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(px4_ros_com)
+[59.302s] Level 1:colcon.colcon_core.environment:checking '/home/indowings/scripts/2026-06-25/ros2_ws/install/px4_ros_com' for CMake module files
+[59.305s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/indowings/scripts/2026-06-25/ros2_ws/build/px4_ros_com' returned '0': CMAKE_PREFIX_PATH=/home/indowings/scripts/2026-06-25/ros2_ws/install/px4_msgs:/home/indowings/scripts/2026-06-25/ros2_ws/install/px4_ros_com:/home/indowings/scripts/2026-06-25/ros2_ws/install/px4_mission:/opt/ros/humble LD_LIBRARY_PATH=/home/indowings/scripts/2026-06-25/ros2_ws/install/px4_msgs/lib:/home/indowings/scripts/2026-06-25/ros2_ws/install/px4_ros_com/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/indowings/scripts/2026-06-25/ros2_ws/build/px4_ros_com
+[59.308s] Level 1:colcon.colcon_core.environment:checking '/home/indowings/scripts/2026-06-25/ros2_ws/install/px4_ros_com' for CMake config files
+[59.309s] Level 1:colcon.colcon_core.shell:create_environment_hook('px4_ros_com', 'cmake_prefix_path')
+[59.310s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/indowings/scripts/2026-06-25/ros2_ws/install/px4_ros_com/share/px4_ros_com/hook/cmake_prefix_path.ps1'
+[59.311s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/indowings/scripts/2026-06-25/ros2_ws/install/px4_ros_com/share/px4_ros_com/hook/cmake_prefix_path.dsv'
+[59.312s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/indowings/scripts/2026-06-25/ros2_ws/install/px4_ros_com/share/px4_ros_com/hook/cmake_prefix_path.sh'
+[59.314s] Level 1:colcon.colcon_core.environment:checking '/home/indowings/scripts/2026-06-25/ros2_ws/install/px4_ros_com/lib'
+[59.315s] Level 1:colcon.colcon_core.shell:create_environment_hook('px4_ros_com', 'ld_library_path_lib')
+[59.316s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/indowings/scripts/2026-06-25/ros2_ws/install/px4_ros_com/share/px4_ros_com/hook/ld_library_path_lib.ps1'
+[59.319s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/indowings/scripts/2026-06-25/ros2_ws/install/px4_ros_com/share/px4_ros_com/hook/ld_library_path_lib.dsv'
+[59.321s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/indowings/scripts/2026-06-25/ros2_ws/install/px4_ros_com/share/px4_ros_com/hook/ld_library_path_lib.sh'
+[59.323s] Level 1:colcon.colcon_core.environment:checking '/home/indowings/scripts/2026-06-25/ros2_ws/install/px4_ros_com/bin'
+[59.324s] Level 1:colcon.colcon_core.environment:checking '/home/indowings/scripts/2026-06-25/ros2_ws/install/px4_ros_com/lib/pkgconfig/px4_ros_com.pc'
+[59.326s] Level 1:colcon.colcon_core.environment:checking '/home/indowings/scripts/2026-06-25/ros2_ws/install/px4_ros_com/lib/python3.10/site-packages'
+[59.327s] Level 1:colcon.colcon_core.environment:checking '/home/indowings/scripts/2026-06-25/ros2_ws/install/px4_ros_com/bin'
+[59.328s] INFO:colcon.colcon_core.shell:Creating package script '/home/indowings/scripts/2026-06-25/ros2_ws/install/px4_ros_com/share/px4_ros_com/package.ps1'
+[59.331s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/indowings/scripts/2026-06-25/ros2_ws/install/px4_ros_com/share/px4_ros_com/package.dsv'
+[59.333s] INFO:colcon.colcon_core.shell:Creating package script '/home/indowings/scripts/2026-06-25/ros2_ws/install/px4_ros_com/share/px4_ros_com/package.sh'
+[59.336s] INFO:colcon.colcon_core.shell:Creating package script '/home/indowings/scripts/2026-06-25/ros2_ws/install/px4_ros_com/share/px4_ros_com/package.bash'
+[59.339s] INFO:colcon.colcon_core.shell:Creating package script '/home/indowings/scripts/2026-06-25/ros2_ws/install/px4_ros_com/share/px4_ros_com/package.zsh'
+[59.341s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/indowings/scripts/2026-06-25/ros2_ws/install/px4_ros_com/share/colcon-core/packages/px4_ros_com)
+[59.345s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(px4_ros_com)
+[59.345s] Level 1:colcon.colcon_core.environment:checking '/home/indowings/scripts/2026-06-25/ros2_ws/install/px4_ros_com' for CMake module files
+[59.348s] Level 1:colcon.colcon_core.environment:checking '/home/indowings/scripts/2026-06-25/ros2_ws/install/px4_ros_com' for CMake config files
+[59.350s] Level 1:colcon.colcon_core.shell:create_environment_hook('px4_ros_com', 'cmake_prefix_path')
+[59.352s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/indowings/scripts/2026-06-25/ros2_ws/install/px4_ros_com/share/px4_ros_com/hook/cmake_prefix_path.ps1'
+[59.355s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/indowings/scripts/2026-06-25/ros2_ws/install/px4_ros_com/share/px4_ros_com/hook/cmake_prefix_path.dsv'
+[59.358s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/indowings/scripts/2026-06-25/ros2_ws/install/px4_ros_com/share/px4_ros_com/hook/cmake_prefix_path.sh'
+[59.361s] Level 1:colcon.colcon_core.environment:checking '/home/indowings/scripts/2026-06-25/ros2_ws/install/px4_ros_com/lib'
+[59.362s] Level 1:colcon.colcon_core.shell:create_environment_hook('px4_ros_com', 'ld_library_path_lib')
+[59.363s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/indowings/scripts/2026-06-25/ros2_ws/install/px4_ros_com/share/px4_ros_com/hook/ld_library_path_lib.ps1'
+[59.364s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/indowings/scripts/2026-06-25/ros2_ws/install/px4_ros_com/share/px4_ros_com/hook/ld_library_path_lib.dsv'
+[59.366s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/indowings/scripts/2026-06-25/ros2_ws/install/px4_ros_com/share/px4_ros_com/hook/ld_library_path_lib.sh'
+[59.367s] Level 1:colcon.colcon_core.environment:checking '/home/indowings/scripts/2026-06-25/ros2_ws/install/px4_ros_com/bin'
+[59.367s] Level 1:colcon.colcon_core.environment:checking '/home/indowings/scripts/2026-06-25/ros2_ws/install/px4_ros_com/lib/pkgconfig/px4_ros_com.pc'
+[59.368s] Level 1:colcon.colcon_core.environment:checking '/home/indowings/scripts/2026-06-25/ros2_ws/install/px4_ros_com/lib/python3.10/site-packages'
+[59.370s] Level 1:colcon.colcon_core.environment:checking '/home/indowings/scripts/2026-06-25/ros2_ws/install/px4_ros_com/bin'
+[59.373s] INFO:colcon.colcon_core.shell:Creating package script '/home/indowings/scripts/2026-06-25/ros2_ws/install/px4_ros_com/share/px4_ros_com/package.ps1'
+[59.376s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/indowings/scripts/2026-06-25/ros2_ws/install/px4_ros_com/share/px4_ros_com/package.dsv'
+[59.380s] INFO:colcon.colcon_core.shell:Creating package script '/home/indowings/scripts/2026-06-25/ros2_ws/install/px4_ros_com/share/px4_ros_com/package.sh'
+[59.381s] INFO:colcon.colcon_core.shell:Creating package script '/home/indowings/scripts/2026-06-25/ros2_ws/install/px4_ros_com/share/px4_ros_com/package.bash'
+[59.383s] INFO:colcon.colcon_core.shell:Creating package script '/home/indowings/scripts/2026-06-25/ros2_ws/install/px4_ros_com/share/px4_ros_com/package.zsh'
+[59.387s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/indowings/scripts/2026-06-25/ros2_ws/install/px4_ros_com/share/colcon-core/packages/px4_ros_com)
+[59.389s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[59.391s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[59.391s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[59.392s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[59.417s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[59.417s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[59.417s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[59.482s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[59.485s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/indowings/scripts/2026-06-25/ros2_ws/install/local_setup.ps1'
+[59.491s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/indowings/scripts/2026-06-25/ros2_ws/install/_local_setup_util_ps1.py'
+[59.499s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/indowings/scripts/2026-06-25/ros2_ws/install/setup.ps1'
+[59.507s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/indowings/scripts/2026-06-25/ros2_ws/install/local_setup.sh'
+[59.511s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/indowings/scripts/2026-06-25/ros2_ws/install/_local_setup_util_sh.py'
+[59.518s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/indowings/scripts/2026-06-25/ros2_ws/install/setup.sh'
+[59.522s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/indowings/scripts/2026-06-25/ros2_ws/install/local_setup.bash'
+[59.524s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/indowings/scripts/2026-06-25/ros2_ws/install/setup.bash'
+[59.530s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/indowings/scripts/2026-06-25/ros2_ws/install/local_setup.zsh'
+[59.535s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/indowings/scripts/2026-06-25/ros2_ws/install/setup.zsh'
