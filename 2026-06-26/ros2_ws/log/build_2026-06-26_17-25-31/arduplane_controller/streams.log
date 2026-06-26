@@ -1,0 +1,18 @@
+[1.506s] Invoking command in '/home/indowings/scripts/2026-06-26/ros2_ws/build/arduplane_controller': PYTHONPATH=/home/indowings/scripts/2026-06-26/ros2_ws/build/arduplane_controller/prefix_override:/home/indowings/.local/lib/python3.10/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/indowings/scripts/2026-06-26/ros2_ws/install/arduplane_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/indowings/scripts/2026-06-26/ros2_ws/build/arduplane_controller/build --no-deps symlink_data
+[1.955s] running develop
+[2.226s] running egg_info
+[2.252s] writing arduplane_controller.egg-info/PKG-INFO
+[2.253s] writing dependency_links to arduplane_controller.egg-info/dependency_links.txt
+[2.253s] writing entry points to arduplane_controller.egg-info/entry_points.txt
+[2.253s] writing requirements to arduplane_controller.egg-info/requires.txt
+[2.254s] writing top-level names to arduplane_controller.egg-info/top_level.txt
+[2.305s] reading manifest file 'arduplane_controller.egg-info/SOURCES.txt'
+[2.307s] writing manifest file 'arduplane_controller.egg-info/SOURCES.txt'
+[2.330s] running build_ext
+[2.330s] Creating /home/indowings/scripts/2026-06-26/ros2_ws/install/arduplane_controller/lib/python3.10/site-packages/arduplane-controller.egg-link (link to .)
+[2.331s] Installing mav_ros_takeoff script to /home/indowings/scripts/2026-06-26/ros2_ws/install/arduplane_controller/lib/arduplane_controller
+[2.331s] Installing plane_takeoff_land script to /home/indowings/scripts/2026-06-26/ros2_ws/install/arduplane_controller/lib/arduplane_controller
+[2.331s] 
+[2.331s] Installed /home/indowings/scripts/2026-06-26/ros2_ws/build/arduplane_controller
+[2.331s] running symlink_data
+[2.377s] Invoked command in '/home/indowings/scripts/2026-06-26/ros2_ws/build/arduplane_controller' returned '0': PYTHONPATH=/home/indowings/scripts/2026-06-26/ros2_ws/build/arduplane_controller/prefix_override:/home/indowings/.local/lib/python3.10/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/indowings/scripts/2026-06-26/ros2_ws/install/arduplane_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/indowings/scripts/2026-06-26/ros2_ws/build/arduplane_controller/build --no-deps symlink_data

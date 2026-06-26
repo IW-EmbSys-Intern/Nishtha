@@ -1,0 +1,3 @@
+[console_scripts]
+mav_ros_takeoff = arduplane_controller.mav_ros_takeoff:main
+plane_takeoff_land = arduplane_controller.plane_takeoff_land:main

@@ -1,0 +1,9 @@
+source;share/arduplane_controller/hook/pythonpath.ps1
+source;share/arduplane_controller/hook/pythonpath.dsv
+source;share/arduplane_controller/hook/pythonpath.sh
+source;share/arduplane_controller/hook/ament_prefix_path.ps1
+source;share/arduplane_controller/hook/ament_prefix_path.dsv
+source;share/arduplane_controller/hook/ament_prefix_path.sh
+source;../../build/arduplane_controller/share/arduplane_controller/hook/pythonpath_develop.ps1
+source;../../build/arduplane_controller/share/arduplane_controller/hook/pythonpath_develop.dsv
+source;../../build/arduplane_controller/share/arduplane_controller/hook/pythonpath_develop.sh

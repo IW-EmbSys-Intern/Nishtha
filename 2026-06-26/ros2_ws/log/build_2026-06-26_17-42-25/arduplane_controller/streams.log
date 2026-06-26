@@ -1,0 +1,29 @@
+[1.032s] Invoking command in '/home/indowings/scripts/2026-06-26/ros2_ws/src/arduplane_controller': PYTHONPATH=/home/indowings/scripts/2026-06-26/ros2_ws/build/arduplane_controller/prefix_override:/home/indowings/.local/lib/python3.10/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/indowings/scripts/2026-06-26/ros2_ws/install/arduplane_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/arduplane_controller build --build-base /home/indowings/scripts/2026-06-26/ros2_ws/build/arduplane_controller/build install --record /home/indowings/scripts/2026-06-26/ros2_ws/build/arduplane_controller/install.log --install-scripts $base/lib/arduplane_controller --single-version-externally-managed install_data
+[1.381s] running egg_info
+[1.405s] writing ../../build/arduplane_controller/arduplane_controller.egg-info/PKG-INFO
+[1.405s] writing dependency_links to ../../build/arduplane_controller/arduplane_controller.egg-info/dependency_links.txt
+[1.406s] writing entry points to ../../build/arduplane_controller/arduplane_controller.egg-info/entry_points.txt
+[1.406s] writing requirements to ../../build/arduplane_controller/arduplane_controller.egg-info/requires.txt
+[1.406s] writing top-level names to ../../build/arduplane_controller/arduplane_controller.egg-info/top_level.txt
+[1.452s] reading manifest file '../../build/arduplane_controller/arduplane_controller.egg-info/SOURCES.txt'
+[1.454s] writing manifest file '../../build/arduplane_controller/arduplane_controller.egg-info/SOURCES.txt'
+[1.455s] running build
+[1.455s] running build_py
+[1.455s] copying arduplane_controller/plane_takeoff_land.py -> /home/indowings/scripts/2026-06-26/ros2_ws/build/arduplane_controller/build/lib/arduplane_controller
+[1.455s] copying arduplane_controller/mav_ros_takeoff.py -> /home/indowings/scripts/2026-06-26/ros2_ws/build/arduplane_controller/build/lib/arduplane_controller
+[1.455s] copying arduplane_controller/__init__.py -> /home/indowings/scripts/2026-06-26/ros2_ws/build/arduplane_controller/build/lib/arduplane_controller
+[1.456s] running install
+[1.463s] running install_lib
+[1.488s] copying /home/indowings/scripts/2026-06-26/ros2_ws/build/arduplane_controller/build/lib/arduplane_controller/mav_ros_takeoff.py -> /home/indowings/scripts/2026-06-26/ros2_ws/install/arduplane_controller/lib/python3.10/site-packages/arduplane_controller
+[1.488s] byte-compiling /home/indowings/scripts/2026-06-26/ros2_ws/install/arduplane_controller/lib/python3.10/site-packages/arduplane_controller/mav_ros_takeoff.py to mav_ros_takeoff.cpython-310.pyc
+[1.489s] running install_data
+[1.490s] copying resource/arduplane_controller -> /home/indowings/scripts/2026-06-26/ros2_ws/install/arduplane_controller/share/ament_index/resource_index/packages
+[1.490s] copying package.xml -> /home/indowings/scripts/2026-06-26/ros2_ws/install/arduplane_controller/share/arduplane_controller
+[1.490s] running install_egg_info
+[1.511s] removing '/home/indowings/scripts/2026-06-26/ros2_ws/install/arduplane_controller/lib/python3.10/site-packages/arduplane_controller-0.0.0-py3.10.egg-info' (and everything under it)
+[1.512s] Copying ../../build/arduplane_controller/arduplane_controller.egg-info to /home/indowings/scripts/2026-06-26/ros2_ws/install/arduplane_controller/lib/python3.10/site-packages/arduplane_controller-0.0.0-py3.10.egg-info
+[1.513s] running install_scripts
+[1.679s] Installing mav_ros_takeoff script to /home/indowings/scripts/2026-06-26/ros2_ws/install/arduplane_controller/lib/arduplane_controller
+[1.679s] Installing plane_takeoff_land script to /home/indowings/scripts/2026-06-26/ros2_ws/install/arduplane_controller/lib/arduplane_controller
+[1.680s] writing list of installed files to '/home/indowings/scripts/2026-06-26/ros2_ws/build/arduplane_controller/install.log'
+[1.714s] Invoked command in '/home/indowings/scripts/2026-06-26/ros2_ws/src/arduplane_controller' returned '0': PYTHONPATH=/home/indowings/scripts/2026-06-26/ros2_ws/build/arduplane_controller/prefix_override:/home/indowings/.local/lib/python3.10/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/indowings/scripts/2026-06-26/ros2_ws/install/arduplane_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/arduplane_controller build --build-base /home/indowings/scripts/2026-06-26/ros2_ws/build/arduplane_controller/build install --record /home/indowings/scripts/2026-06-26/ros2_ws/build/arduplane_controller/install.log --install-scripts $base/lib/arduplane_controller --single-version-externally-managed install_data

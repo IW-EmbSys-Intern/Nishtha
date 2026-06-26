@@ -1,0 +1,18 @@
+running develop
+running egg_info
+writing arduplane_controller.egg-info/PKG-INFO
+writing dependency_links to arduplane_controller.egg-info/dependency_links.txt
+writing entry points to arduplane_controller.egg-info/entry_points.txt
+writing requirements to arduplane_controller.egg-info/requires.txt
+writing top-level names to arduplane_controller.egg-info/top_level.txt
+reading manifest file 'arduplane_controller.egg-info/SOURCES.txt'
+writing manifest file 'arduplane_controller.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/indowings/scripts/2026-06-26/ros2_ws/install/arduplane_controller/lib/python3.10/site-packages/arduplane-controller.egg-link (link to .)
+Installing mav_ros_takeoff script to /home/indowings/scripts/2026-06-26/ros2_ws/install/arduplane_controller/lib/arduplane_controller
+Installing plane_takeoff_land script to /home/indowings/scripts/2026-06-26/ros2_ws/install/arduplane_controller/lib/arduplane_controller
+
+Installed /home/indowings/scripts/2026-06-26/ros2_ws/build/arduplane_controller
+running symlink_data
+symbolically linking /home/indowings/scripts/2026-06-26/ros2_ws/build/arduplane_controller/resource/arduplane_controller -> /home/indowings/scripts/2026-06-26/ros2_ws/install/arduplane_controller/share/ament_index/resource_index/packages
+symbolically linking /home/indowings/scripts/2026-06-26/ros2_ws/build/arduplane_controller/package.xml -> /home/indowings/scripts/2026-06-26/ros2_ws/install/arduplane_controller/share/arduplane_controller
